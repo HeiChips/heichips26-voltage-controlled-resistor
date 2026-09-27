@@ -10,15 +10,24 @@ P 4 5 2060 -1280 2460 -1280 2460 -500 2060 -500 2060 -1280 {fill = false
 dash = 16}
 T {HeiChips 2026 - Analog Project} 830 -1700 0 0 1 1 {}
 T {Decoupling} 2070 -1270 0 0 0.4 0.4 {}
-N 2260 -800 2260 -760 {lab=VAPWR}
-N 2200 -720 2230 -720 {lab=VGND}
-N 2200 -720 2200 -620 {lab=VGND}
-N 2260 -620 2320 -620 {lab=VGND}
-N 2320 -720 2320 -620 {lab=VGND}
-N 2290 -720 2320 -720 {lab=VGND}
-N 2260 -620 2260 -580 {lab=VGND}
-N 2260 -720 2260 -620 {lab=VGND}
-N 2200 -620 2260 -620 {lab=VGND}
+N 2260 -800 2260 -760 {lab=VAPWR
+spice_ignore=true}
+N 2200 -720 2230 -720 {lab=VGND
+spice_ignore=true}
+N 2200 -720 2200 -620 {lab=VGND
+spice_ignore=true}
+N 2260 -620 2320 -620 {lab=VGND
+spice_ignore=true}
+N 2320 -720 2320 -620 {lab=VGND
+spice_ignore=true}
+N 2290 -720 2320 -720 {lab=VGND
+spice_ignore=true}
+N 2260 -620 2260 -580 {lab=VGND
+spice_ignore=true}
+N 2260 -720 2260 -620 {lab=VGND
+spice_ignore=true}
+N 2200 -620 2260 -620 {lab=VGND
+spice_ignore=true}
 N 140 -1320 180 -1320 {lab=clk}
 N 140 -1300 180 -1300 {lab=ena}
 N 140 -1340 180 -1340 {lab=rst_n}
@@ -68,20 +77,29 @@ N 140 -1420 180 -1420 {lab=VPWR}
 N 140 -360 180 -360 {lab=analog_2}
 N 140 -340 180 -340 {lab=analog_1}
 N 140 -320 180 -320 {lab=analog_0}
-N 2260 -1180 2260 -1140 {lab=VPWR}
-N 2200 -1100 2230 -1100 {lab=VGND}
-N 2200 -1100 2200 -1000 {lab=VGND}
-N 2260 -1000 2320 -1000 {lab=VGND}
-N 2320 -1100 2320 -1000 {lab=VGND}
-N 2290 -1100 2320 -1100 {lab=VGND}
-N 2260 -1000 2260 -960 {lab=VGND}
-N 2260 -1100 2260 -1000 {lab=VGND}
-N 2200 -1000 2260 -1000 {lab=VGND}
-N 560 -1360 580 -1360 {lab=ui_in[2]}
-N 560 -1300 580 -1300 {lab=ui_in[5]}
-N 560 -1280 580 -1280 {lab=ui_in[3]}
-N 560 -1260 580 -1260 {lab=ui_in[4]}
-N 740 -1260 760 -1260 {lab=uo_out[0]}
+N 2260 -1180 2260 -1140 {lab=VPWR
+spice_ignore=true}
+N 2200 -1100 2230 -1100 {lab=VGND
+spice_ignore=true}
+N 2200 -1100 2200 -1000 {lab=VGND
+spice_ignore=true}
+N 2260 -1000 2320 -1000 {lab=VGND
+spice_ignore=true}
+N 2320 -1100 2320 -1000 {lab=VGND
+spice_ignore=true}
+N 2290 -1100 2320 -1100 {lab=VGND
+spice_ignore=true}
+N 2260 -1000 2260 -960 {lab=VGND
+spice_ignore=true}
+N 2260 -1100 2260 -1000 {lab=VGND
+spice_ignore=true}
+N 2200 -1000 2260 -1000 {lab=VGND
+spice_ignore=true}
+N 560 -1360 580 -1360 {lab=ui_in[5]}
+N 560 -1300 580 -1300 {lab=ui_in[4]}
+N 560 -1280 580 -1280 {lab=ui_in[7]}
+N 560 -1260 580 -1260 {lab=ui_in[6]}
+N 740 -1260 760 -1260 {lab=uo_out[7]}
 N 640 -1440 640 -1420 {lab=VPWR}
 N 680 -1440 680 -1420 {lab=VAPWR}
 N 660 -1220 660 -1200 {lab=VGND}
@@ -97,7 +115,7 @@ N 660 -1000 660 -980 {lab=VAPWR}
 N 660 -820 660 -800 {lab=VGND}
 N 560 -860 580 -860 {lab=analog_2}
 N 560 -880 580 -880 {lab=analog_1}
-N 560 -940 580 -940 {lab=ui_in[0]}
+N 560 -940 580 -940 {lab=ui_in[3]}
 N 560 -900 580 -900 {lab=analog_0}
 N 740 -900 840 -900 {lab=#net3}
 N 840 -1000 840 -900 {lab=#net3}
@@ -105,28 +123,48 @@ N 840 -1000 980 -1000 {lab=#net3}
 N 980 -1000 980 -980 {lab=#net3}
 N 740 -860 840 -860 {lab=#net1}
 N 840 -860 840 -760 {lab=#net1}
-N 660 -560 660 -540 {lab=VAPWR}
-N 660 -380 660 -360 {lab=VGND}
-N 560 -420 580 -420 {lab=analog_2}
-N 560 -440 580 -440 {lab=analog_1}
-N 560 -500 580 -500 {lab=ui_in[1]}
-N 560 -460 580 -460 {lab=analog_0}
-N 740 -440 860 -440 {lab=#net4}
-N 740 -420 840 -420 {lab=#net5}
-N 840 -420 840 -360 {lab=#net5}
-N 840 -360 1340 -360 {lab=#net5}
-N 1340 -440 1340 -360 {lab=#net5}
-N 1320 -440 1340 -440 {lab=#net5}
-N 740 -460 840 -460 {lab=#net6}
-N 840 -580 840 -460 {lab=#net6}
-N 840 -580 930 -580 {lab=#net6}
-N 930 -580 930 -550 {lab=#net6}
-N 900 -390 900 -340 {lab=VGND}
-N 900 -600 900 -550 {lab=VAPWR}
+N 660 -560 660 -540 {lab=VAPWR
+spice_ignore=true}
+N 660 -380 660 -360 {lab=VGND
+spice_ignore=true}
+N 560 -420 580 -420 {lab=analog_2
+spice_ignore=true}
+N 560 -440 580 -440 {lab=analog_1
+spice_ignore=true}
+N 560 -500 580 -500 {lab=ui_in[2]
+spice_ignore=true}
+N 560 -460 580 -460 {lab=analog_0
+spice_ignore=true}
+N 740 -440 860 -440 {lab=#net4
+spice_ignore=true}
+N 740 -420 840 -420 {lab=#net5
+spice_ignore=true}
+N 840 -420 840 -360 {lab=#net5
+spice_ignore=true}
+N 840 -360 1340 -360 {lab=#net5
+spice_ignore=true}
+N 1340 -440 1340 -360 {lab=#net5
+spice_ignore=true}
+N 1320 -440 1340 -440 {lab=#net5
+spice_ignore=true}
+N 740 -460 840 -460 {lab=#net6
+spice_ignore=true}
+N 840 -580 840 -460 {lab=#net6
+spice_ignore=true}
+N 840 -580 930 -580 {lab=#net6
+spice_ignore=true}
+N 930 -580 930 -550 {lab=#net6
+spice_ignore=true}
+N 900 -390 900 -340 {lab=VGND
+spice_ignore=true}
+N 900 -600 900 -550 {lab=VAPWR
+spice_ignore=true}
 N 560 -1320 580 -1320 {lab=analog_0}
 C {title-3.sym} 0 0 0 0 {name=l1 author="Simon Dorrer" rev=1.0 lock=true}
-C {lab_pin.sym} 2260 -800 1 0 {name=p25 sig_type=std_logic lab=VAPWR}
-C {lab_pin.sym} 2260 -580 3 0 {name=p26 sig_type=std_logic lab=VGND}
+C {lab_pin.sym} 2260 -800 1 0 {name=p25 sig_type=std_logic lab=VAPWR
+spice_ignore=true}
+C {lab_pin.sym} 2260 -580 3 0 {name=p26 sig_type=std_logic lab=VGND
+spice_ignore=true}
 C {devices/ipin.sym} 140 -1340 2 1 {name=p30 lab=rst_n}
 C {devices/ipin.sym} 140 -1320 2 1 {name=p31 lab=clk}
 C {devices/ipin.sym} 140 -1300 2 1 {name=p32 lab=ena}
@@ -184,8 +222,10 @@ C {conn_3x1.sym} 200 -340 0 1 {name=c10 footprint=connector(3,1)}
 C {devices/iopin.sym} 140 -360 2 0 {name=p64 lab=analog_2}
 C {devices/iopin.sym} 140 -340 2 0 {name=p65 lab=analog_1}
 C {devices/iopin.sym} 140 -320 2 0 {name=p66 lab=analog_0}
-C {lab_pin.sym} 2260 -1180 1 0 {name=p3 sig_type=std_logic lab=VPWR}
-C {lab_pin.sym} 2260 -960 3 0 {name=p4 sig_type=std_logic lab=VGND}
+C {lab_pin.sym} 2260 -1180 1 0 {name=p3 sig_type=std_logic lab=VPWR
+spice_ignore=true}
+C {lab_pin.sym} 2260 -960 3 0 {name=p4 sig_type=std_logic lab=VGND
+spice_ignore=true}
 C {sg13cmos5l_pr/sg13_lv_pmos.sym} 2260 -1120 1 0 {name=M1
 l=10.0u
 w=10.0u
@@ -194,7 +234,7 @@ m=1
 mm_ok=1
 model=sg13_lv_pmos
 spiceprefix=X
-}
+spice_ignore=true}
 C {sg13cmos5l_pr/sg13_lv_pmos.sym} 2260 -740 1 0 {name=M2
 l=10.0u
 w=10.0u
@@ -203,18 +243,17 @@ m=1
 mm_ok=1
 model=sg13_lv_pmos
 spiceprefix=X
-}
+spice_ignore=true}
 C {lab_pin.sym} 760 -1340 0 1 {name=p6 sig_type=std_logic lab=analog_2}
 C {lab_pin.sym} 760 -1300 0 1 {name=p10 sig_type=std_logic lab=analog_1}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/switched_cap_cell.sym} 660 -1320 0 0 {name=x1}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/vcr_bisection.sym} 880 -410 0 0 {name=x2}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/yadav/schematic/xschem/YadavVCR.sym} 980 -880 0 0 {name=x5}
-C {lab_pin.sym} 560 -1360 0 0 {name=p20 sig_type=std_logic lab=ui_in[2]}
-C {lab_pin.sym} 560 -1280 0 0 {name=p21 sig_type=std_logic lab=ui_in[3]}
-C {lab_pin.sym} 560 -1260 0 0 {name=p22 sig_type=std_logic lab=ui_in[4]}
-C {lab_pin.sym} 560 -1300 0 0 {name=p23 sig_type=std_logic lab=ui_in[5]}
+C {switched_cap_cell.sym} 660 -1320 0 0 {name=x1}
+C {YadavVCR.sym} 980 -880 0 0 {name=x5}
+C {lab_pin.sym} 560 -1300 0 0 {name=p20 sig_type=std_logic lab=ui_in[4]}
+C {lab_pin.sym} 560 -1360 0 0 {name=p21 sig_type=std_logic lab=ui_in[5]}
+C {lab_pin.sym} 560 -1260 0 0 {name=p22 sig_type=std_logic lab=ui_in[6]}
+C {lab_pin.sym} 560 -1280 0 0 {name=p23 sig_type=std_logic lab=ui_in[7]}
 C {lab_pin.sym} 560 -1320 0 0 {name=p24 sig_type=std_logic lab=analog_0}
-C {lab_pin.sym} 760 -1260 0 1 {name=p67 sig_type=std_logic lab=uo_out[0]}
+C {lab_pin.sym} 760 -1260 0 1 {name=p67 sig_type=std_logic lab=uo_out[7]}
 C {lab_pin.sym} 660 -1200 3 0 {name=p68 sig_type=std_logic lab=VGND}
 C {lab_pin.sym} 680 -1440 1 0 {name=p69 sig_type=std_logic lab=VAPWR}
 C {lab_pin.sym} 640 -1440 1 0 {name=p70 sig_type=std_logic lab=VPWR}
@@ -224,15 +263,24 @@ C {lab_pin.sym} 660 -800 3 0 {name=p1 sig_type=std_logic lab=VGND}
 C {lab_pin.sym} 660 -1000 1 0 {name=p2 sig_type=std_logic lab=VAPWR}
 C {lab_pin.sym} 560 -860 0 0 {name=p5 sig_type=std_logic lab=analog_2}
 C {lab_pin.sym} 560 -880 0 0 {name=p7 sig_type=std_logic lab=analog_1}
-C {lab_pin.sym} 560 -940 0 0 {name=p71 sig_type=std_logic lab=ui_in[0]}
+C {lab_pin.sym} 560 -500 0 0 {name=p71 sig_type=std_logic lab=ui_in[2]
+spice_ignore=true}
 C {analog_switch_3pst.sym} 660 -900 0 0 {name=x3}
 C {lab_pin.sym} 560 -900 0 0 {name=p72 sig_type=std_logic lab=analog_0}
-C {lab_pin.sym} 660 -360 3 0 {name=p73 sig_type=std_logic lab=VGND}
-C {lab_pin.sym} 660 -560 1 0 {name=p74 sig_type=std_logic lab=VAPWR}
-C {lab_pin.sym} 560 -420 0 0 {name=p75 sig_type=std_logic lab=analog_2}
-C {lab_pin.sym} 560 -440 0 0 {name=p76 sig_type=std_logic lab=analog_1}
-C {lab_pin.sym} 560 -500 0 0 {name=p77 sig_type=std_logic lab=ui_in[1]}
-C {analog_switch_3pst.sym} 660 -460 0 0 {name=x4}
-C {lab_pin.sym} 560 -460 0 0 {name=p78 sig_type=std_logic lab=analog_0}
-C {lab_pin.sym} 900 -340 3 0 {name=p79 sig_type=std_logic lab=VGND}
-C {lab_pin.sym} 900 -600 1 0 {name=p80 sig_type=std_logic lab=VAPWR}
+C {lab_pin.sym} 660 -360 3 0 {name=p73 sig_type=std_logic lab=VGND
+spice_ignore=true}
+C {lab_pin.sym} 660 -560 1 0 {name=p74 sig_type=std_logic lab=VAPWR
+spice_ignore=true}
+C {lab_pin.sym} 560 -420 0 0 {name=p75 sig_type=std_logic lab=analog_2
+spice_ignore=true}
+C {lab_pin.sym} 560 -440 0 0 {name=p76 sig_type=std_logic lab=analog_1
+spice_ignore=true}
+C {lab_pin.sym} 560 -940 0 0 {name=p77 sig_type=std_logic lab=ui_in[3]}
+C {analog_switch_3pst.sym} 660 -460 0 0 {name=x4
+spice_ignore=true}
+C {lab_pin.sym} 560 -460 0 0 {name=p78 sig_type=std_logic lab=analog_0
+spice_ignore=true}
+C {lab_pin.sym} 900 -340 3 0 {name=p79 sig_type=std_logic lab=VGND
+spice_ignore=true}
+C {lab_pin.sym} 900 -600 1 0 {name=p80 sig_type=std_logic lab=VAPWR
+spice_ignore=true}

@@ -1,7 +1,6 @@
 ** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/vco.sch
 .subckt vco VDD out VSS nout vctrl vc
 *.PININFO VSS:B VDD:B nout:B out:B vctrl:B vc:B
-XC1 vc VSS cap_cmomi w=30e-6 l=30e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1
 XM4 vc out 5uA- VSS sg13_hv_nmos w=0.3u l=0.45u ng=1 m=1 mm_ok=1
 x1 VDD s out nout r VSS hv_rs-ff
 XM6 vc out 5uA+ VDD sg13_hv_pmos w=0.3u l=0.4u ng=1 m=1 mm_ok=1

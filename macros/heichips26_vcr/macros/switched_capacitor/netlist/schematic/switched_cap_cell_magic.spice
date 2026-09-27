@@ -199,6 +199,8 @@ XM2 net1 in VDD VDD sg13_hv_pmos w={p_ng*p_w} l={p_l} ng={n_ng} m=1 mm_ok=1
 **** begin user architecture code
 
 
+.include ../../../macros/switched_capacitor/schematic/xschem/hv_inverter_6u5.sym
+
 .param n_ng = 2
 .param n_w = 10u
 .param n_l = 0.45u

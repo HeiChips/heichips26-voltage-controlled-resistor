@@ -159,5 +159,6 @@ T {uo_out[0]} 155 96 0 1 0.2 0.2 {}
 T {analog_2} 155 236 0 1 0.2 0.2 {}
 T {analog_1} 155 256 0 1 0.2 0.2 {}
 T {analog_0} 155 276 0 1 0.2 0.2 {}
-T {HeiChips 2026
-Analog Project} -80 -25 0 0 0.4 0.4 {}
+T {HeiChips 2026} -70 -45 0 0 0.4 0.4 {}
+T {Voltage Controlled} -90 -15 0 0 0.4 0.4 {}
+T {Resistor} -40 15 0 0 0.4 0.4 {}
