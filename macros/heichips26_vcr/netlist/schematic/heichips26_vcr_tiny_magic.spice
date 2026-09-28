@@ -19,6 +19,43 @@
 x1 analog_0 VAPWR VGND analog_2 analog_1 ui_in[4] ui_in[7] ui_in[6] ui_in[5] VPWR uo_out[7] switched_cap_cell
 x5 VAPWR net2 net1 net3 VGND YadavVCR
 x3 net3 analog_0 VAPWR ui_in[3] VGND net2 analog_1 net1 analog_2 analog_switch_3pst
+x8 net4 VDD VSS sg13g2_hv_tielo
+x2 net5 VDD VSS sg13g2_hv_tielo
+x6 net6 VDD VSS sg13g2_hv_tielo
+V1 uo_out[6] net4 0
+V2 uo_out[5] net4 0
+V3 uo_out[4] net4 0
+V4 uo_out[3] net4 0
+V5 uo_out[2] net4 0
+V6 uo_out[1] net4 0
+V7 uo_out[0] net4 0
+V8 uio_out[6] net5 0
+V9 uio_out[5] net5 0
+V10 uio_out[4] net5 0
+V11 uio_out[3] net5 0
+V12 uio_out[2] net5 0
+V13 uio_out[1] net5 0
+V14 uio_out[0] net5 0
+V15 uio_out[7] net5 0
+V16 uio_oe[6] net5 0
+V17 uio_oe[5] net5 0
+V18 uio_oe[4] net5 0
+V19 uio_oe[3] net5 0
+V20 uio_oe[2] net5 0
+V21 uio_oe[1] net5 0
+V22 uio_oe[0] net5 0
+V23 uio_oe[7] net5 0
+V24 uio_in[6] net6 0
+V25 uio_in[5] net6 0
+V26 uio_in[4] net6 0
+V27 uio_in[3] net6 0
+V28 uio_in[2] net6 0
+V29 uio_in[1] net6 0
+V30 uio_in[0] net6 0
+V31 uio_in[7] net6 0
+V32 ui_in[2] net5 0
+V33 ui_in[1] net5 0
+V34 ui_in[0] net5 0
 .ends
 
 * expanding   symbol:  switched_cap_cell.sym # of pins=11
@@ -86,6 +123,17 @@ x7 VAPWR net2 net1 VGND hv_inverter_40u
 x3 net2 sw2_p1 sw2_p2 net1 VAPWR VGND transmission_gate
 x8 VAPWR ctrl net2 VGND lvl_shift_up
 x1 net2 sw3_p1 sw3_p2 net1 VAPWR VGND transmission_gate
+.ends
+
+
+* expanding   symbol:  sg13g2_hv_tielo.sym # of pins=1
+** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13cmos5l/libs.ref/sg13cmos5l_stdcell_hv/sym/xschem/sg13g2_hv_tielo.sym
+** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13cmos5l/libs.ref/sg13cmos5l_stdcell_hv/sch/xschem/sg13g2_hv_tielo.sch
+.subckt sg13g2_hv_tielo L_LO VDD VSS
+
+*.PININFO L_LO:O
+XM1 L_LO VDD VSS VSS sg13_hv_nmos w=0.740u l=0.450u ng=1 m=1 mm_ok=1
+XM2 L_LO VDD VDD VDD sg13_hv_pmos w=2.690u l=0.450u ng=1 m=1 mm_ok=1
 .ends
 
 

@@ -4,7 +4,7 @@
 MAKEFILE_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 # Variables
-TOP = heichips26_analog_project
+TOP = heichips26_vcr
 
 .DEFAULT_GOAL := help
 
@@ -139,6 +139,8 @@ lef: ## Export LEF from the TOP cell layout using Magic
 	printf '%s\n' \
 		'gds read $(LAY_DIR)/$(TOP).gds' \
 		'load $(TOP)' \
+		'port VAPWR class inout' \
+		'port VAPWR use POWER' \
 		'lef write $(LEF_DIR)/$(TOP).lef -hide -pinonly 2um' | \
 		magic -dnull -noconsole \
 		-rcfile $(PDK_ROOT)/$(PDK)/libs.tech/magic/ihp-sg13cmos5l.magicrc
