@@ -167,20 +167,20 @@ N 340 -460 360 -460 {lab=uo_out[3]}
 N 340 -480 360 -480 {lab=uo_out[4]}
 N 340 -500 360 -500 {lab=uo_out[5]}
 N 340 -520 360 -520 {lab=uo_out[6]}
-N 420 -520 440 -520 {lab=#net4}
-N 440 -520 440 -500 {lab=#net4}
-N 420 -500 440 -500 {lab=#net4}
-N 440 -500 440 -480 {lab=#net4}
-N 420 -480 440 -480 {lab=#net4}
-N 440 -480 440 -460 {lab=#net4}
-N 420 -460 440 -460 {lab=#net4}
-N 440 -460 440 -440 {lab=#net4}
-N 420 -440 440 -440 {lab=#net4}
-N 440 -440 440 -420 {lab=#net4}
-N 420 -420 440 -420 {lab=#net4}
-N 440 -420 440 -400 {lab=#net4}
-N 420 -400 440 -400 {lab=#net4}
-N 440 -400 440 -380 {lab=#net4}
+N 380 -520 400 -520 {lab=#net4}
+N 400 -520 400 -500 {lab=#net4}
+N 380 -500 400 -500 {lab=#net4}
+N 400 -500 400 -480 {lab=#net4}
+N 380 -480 400 -480 {lab=#net4}
+N 400 -480 400 -460 {lab=#net4}
+N 380 -460 400 -460 {lab=#net4}
+N 400 -460 400 -440 {lab=#net4}
+N 380 -440 400 -440 {lab=#net4}
+N 400 -440 400 -420 {lab=#net4}
+N 380 -420 400 -420 {lab=#net4}
+N 400 -420 400 -400 {lab=#net4}
+N 380 -400 400 -400 {lab=#net4}
+N 400 -400 400 -380 {lab=#net4}
 N 340 -580 360 -580 {lab=uio_out[0]}
 N 340 -600 360 -600 {lab=uio_out[1]}
 N 340 -620 360 -620 {lab=uio_out[2]}
@@ -188,22 +188,22 @@ N 340 -640 360 -640 {lab=uio_out[3]}
 N 340 -660 360 -660 {lab=uio_out[4]}
 N 340 -680 360 -680 {lab=uio_out[5]}
 N 340 -700 360 -700 {lab=uio_out[6]}
-N 420 -700 440 -700 {lab=#net5}
-N 440 -700 440 -680 {lab=#net5}
-N 420 -680 440 -680 {lab=#net5}
-N 440 -680 440 -660 {lab=#net5}
-N 420 -660 440 -660 {lab=#net5}
-N 440 -660 440 -640 {lab=#net5}
-N 420 -640 440 -640 {lab=#net5}
-N 440 -640 440 -620 {lab=#net5}
-N 420 -620 440 -620 {lab=#net5}
-N 440 -620 440 -600 {lab=#net5}
-N 420 -600 440 -600 {lab=#net5}
-N 440 -600 440 -580 {lab=#net5}
-N 420 -580 440 -580 {lab=#net5}
-N 440 -580 440 -560 {lab=#net5}
+N 380 -700 400 -700 {lab=#net5}
+N 400 -700 400 -680 {lab=#net5}
+N 380 -680 400 -680 {lab=#net5}
+N 400 -680 400 -660 {lab=#net5}
+N 380 -660 400 -660 {lab=#net5}
+N 400 -660 400 -640 {lab=#net5}
+N 380 -640 400 -640 {lab=#net5}
+N 400 -640 400 -620 {lab=#net5}
+N 380 -620 400 -620 {lab=#net5}
+N 400 -620 400 -600 {lab=#net5}
+N 380 -600 400 -600 {lab=#net5}
+N 400 -600 400 -580 {lab=#net5}
+N 380 -580 400 -580 {lab=#net5}
+N 400 -580 400 -560 {lab=#net5}
 N 340 -720 360 -720 {lab=uio_out[7]}
-N 420 -720 440 -720 {lab=#net5}
+N 380 -720 400 -720 {lab=#net5}
 N 340 -1120 360 -1120 {lab=uio_in[0]}
 N 340 -1140 360 -1140 {lab=uio_in[1]}
 N 340 -1160 360 -1160 {lab=uio_in[2]}
@@ -211,23 +211,23 @@ N 340 -1180 360 -1180 {lab=uio_in[3]}
 N 340 -1200 360 -1200 {lab=uio_in[4]}
 N 340 -1220 360 -1220 {lab=uio_in[5]}
 N 340 -1240 360 -1240 {lab=uio_in[6]}
-N 420 -1240 440 -1240 {lab=#net6}
-N 440 -1240 440 -1220 {lab=#net6}
-N 420 -1220 440 -1220 {lab=#net6}
-N 440 -1220 440 -1200 {lab=#net6}
-N 420 -1200 440 -1200 {lab=#net6}
-N 440 -1200 440 -1180 {lab=#net6}
-N 420 -1180 440 -1180 {lab=#net6}
-N 440 -1180 440 -1160 {lab=#net6}
-N 420 -1160 440 -1160 {lab=#net6}
-N 440 -1160 440 -1140 {lab=#net6}
-N 420 -1140 440 -1140 {lab=#net6}
-N 440 -1140 440 -1120 {lab=#net6}
-N 420 -1120 440 -1120 {lab=#net6}
-N 440 -1120 440 -1100 {lab=#net6}
+N 380 -1240 400 -1240 {lab=#net6}
+N 400 -1240 400 -1220 {lab=#net6}
+N 380 -1220 400 -1220 {lab=#net6}
+N 400 -1220 400 -1200 {lab=#net6}
+N 380 -1200 400 -1200 {lab=#net6}
+N 400 -1200 400 -1180 {lab=#net6}
+N 380 -1180 400 -1180 {lab=#net6}
+N 400 -1180 400 -1160 {lab=#net6}
+N 380 -1160 400 -1160 {lab=#net6}
+N 400 -1160 400 -1140 {lab=#net6}
+N 380 -1140 400 -1140 {lab=#net6}
+N 400 -1140 400 -1120 {lab=#net6}
+N 380 -1120 400 -1120 {lab=#net6}
+N 400 -1120 400 -1100 {lab=#net6}
 N 340 -1260 360 -1260 {lab=uio_in[7]}
-N 420 -1260 440 -1260 {lab=#net6}
-N 440 -1260 440 -1240 {lab=#net6}
+N 380 -1260 400 -1260 {lab=#net6}
+N 400 -1260 400 -1240 {lab=#net6}
 N 340 -760 360 -760 {lab=uio_oe[0]}
 N 340 -780 360 -780 {lab=uio_oe[1]}
 N 340 -800 360 -800 {lab=uio_oe[2]}
@@ -235,33 +235,37 @@ N 340 -820 360 -820 {lab=uio_oe[3]}
 N 340 -840 360 -840 {lab=uio_oe[4]}
 N 340 -860 360 -860 {lab=uio_oe[5]}
 N 340 -880 360 -880 {lab=uio_oe[6]}
-N 420 -880 440 -880 {lab=#net5}
-N 440 -880 440 -860 {lab=#net5}
-N 420 -860 440 -860 {lab=#net5}
-N 440 -860 440 -840 {lab=#net5}
-N 420 -840 440 -840 {lab=#net5}
-N 440 -840 440 -820 {lab=#net5}
-N 420 -820 440 -820 {lab=#net5}
-N 440 -820 440 -800 {lab=#net5}
-N 420 -800 440 -800 {lab=#net5}
-N 440 -800 440 -780 {lab=#net5}
-N 420 -780 440 -780 {lab=#net5}
-N 440 -780 440 -760 {lab=#net5}
-N 420 -760 440 -760 {lab=#net5}
-N 440 -760 440 -720 {lab=#net5}
+N 380 -880 400 -880 {lab=#net5}
+N 400 -880 400 -860 {lab=#net5}
+N 380 -860 400 -860 {lab=#net5}
+N 400 -860 400 -840 {lab=#net5}
+N 380 -840 400 -840 {lab=#net5}
+N 400 -840 400 -820 {lab=#net5}
+N 380 -820 400 -820 {lab=#net5}
+N 400 -820 400 -800 {lab=#net5}
+N 380 -800 400 -800 {lab=#net5}
+N 400 -800 400 -780 {lab=#net5}
+N 380 -780 400 -780 {lab=#net5}
+N 400 -780 400 -760 {lab=#net5}
+N 380 -760 400 -760 {lab=#net5}
+N 400 -760 400 -720 {lab=#net5}
 N 340 -900 360 -900 {lab=uio_oe[7]}
-N 420 -900 440 -900 {lab=#net5}
-N 440 -900 440 -880 {lab=#net5}
-N 440 -720 440 -700 {lab=#net5}
+N 380 -900 400 -900 {lab=#net5}
+N 400 -900 400 -880 {lab=#net5}
+N 400 -720 400 -700 {lab=#net5}
 N 340 -940 360 -940 {lab=ui_in[0]}
 N 340 -960 360 -960 {lab=ui_in[1]}
 N 340 -980 360 -980 {lab=ui_in[2]}
-N 420 -980 440 -980 {lab=#net5}
-N 440 -980 440 -960 {lab=#net5}
-N 420 -960 440 -960 {lab=#net5}
-N 440 -960 440 -940 {lab=#net5}
-N 420 -940 440 -940 {lab=#net5}
-N 440 -940 440 -900 {lab=#net5}
+N 380 -980 400 -980 {lab=#net5}
+N 400 -980 400 -960 {lab=#net5}
+N 380 -960 400 -960 {lab=#net5}
+N 400 -960 400 -940 {lab=#net5}
+N 380 -940 400 -940 {lab=#net5}
+N 400 -940 400 -900 {lab=#net5}
+N 480 -260 500 -260 {lab=VGND}
+N 520 -260 540 -260 {lab=VSS}
+N 480 -220 500 -220 {lab=VGND}
+N 520 -220 540 -220 {lab=VSS}
 C {title-3.sym} 0 0 0 0 {name=l1 author="Simon Dorrer" rev=1.0 lock=true}
 C {lab_pin.sym} 2260 -800 1 0 {name=p25 sig_type=std_logic lab=VAPWR
 spice_ignore=true}
@@ -420,40 +424,51 @@ C {lab_pin.sym} 340 -860 0 0 {name=p111 sig_type=std_logic lab=uio_oe[5]}
 C {lab_pin.sym} 340 -840 0 0 {name=p112 sig_type=std_logic lab=uio_oe[4]}
 C {lab_pin.sym} 340 -900 0 0 {name=p113 sig_type=std_logic lab=uio_oe[7]}
 C {lab_pin.sym} 340 -820 0 0 {name=p114 sig_type=std_logic lab=uio_oe[3]}
-C {sg13g2_hv_tielo.sym} 440 -380 0 0 {name=x8 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
-C {sg13g2_hv_tielo.sym} 440 -560 0 0 {name=x2 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
-C {sg13g2_hv_tielo.sym} 440 -1100 0 0 {name=x6 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
-C {vsource.sym} 390 -520 3 0 {name=V1 value=0 savecurrent=false}
-C {vsource.sym} 390 -500 3 0 {name=V2 value=0 savecurrent=false}
-C {vsource.sym} 390 -480 3 0 {name=V3 value=0 savecurrent=false}
-C {vsource.sym} 390 -460 3 0 {name=V4 value=0 savecurrent=false}
-C {vsource.sym} 390 -440 3 0 {name=V5 value=0 savecurrent=false}
-C {vsource.sym} 390 -420 3 0 {name=V6 value=0 savecurrent=false}
-C {vsource.sym} 390 -400 3 0 {name=V7 value=0 savecurrent=false}
-C {vsource.sym} 390 -700 3 0 {name=V8 value=0 savecurrent=false}
-C {vsource.sym} 390 -680 3 0 {name=V9 value=0 savecurrent=false}
-C {vsource.sym} 390 -660 3 0 {name=V10 value=0 savecurrent=false}
-C {vsource.sym} 390 -640 3 0 {name=V11 value=0 savecurrent=false}
-C {vsource.sym} 390 -620 3 0 {name=V12 value=0 savecurrent=false}
-C {vsource.sym} 390 -600 3 0 {name=V13 value=0 savecurrent=false}
-C {vsource.sym} 390 -580 3 0 {name=V14 value=0 savecurrent=false}
-C {vsource.sym} 390 -720 3 0 {name=V15 value=0 savecurrent=false}
-C {vsource.sym} 390 -880 3 0 {name=V16 value=0 savecurrent=false}
-C {vsource.sym} 390 -860 3 0 {name=V17 value=0 savecurrent=false}
-C {vsource.sym} 390 -840 3 0 {name=V18 value=0 savecurrent=false}
-C {vsource.sym} 390 -820 3 0 {name=V19 value=0 savecurrent=false}
-C {vsource.sym} 390 -800 3 0 {name=V20 value=0 savecurrent=false}
-C {vsource.sym} 390 -780 3 0 {name=V21 value=0 savecurrent=false}
-C {vsource.sym} 390 -760 3 0 {name=V22 value=0 savecurrent=false}
-C {vsource.sym} 390 -900 3 0 {name=V23 value=0 savecurrent=false}
-C {vsource.sym} 390 -1240 3 0 {name=V24 value=0 savecurrent=false}
-C {vsource.sym} 390 -1220 3 0 {name=V25 value=0 savecurrent=false}
-C {vsource.sym} 390 -1200 3 0 {name=V26 value=0 savecurrent=false}
-C {vsource.sym} 390 -1180 3 0 {name=V27 value=0 savecurrent=false}
-C {vsource.sym} 390 -1160 3 0 {name=V28 value=0 savecurrent=false}
-C {vsource.sym} 390 -1140 3 0 {name=V29 value=0 savecurrent=false}
-C {vsource.sym} 390 -1120 3 0 {name=V30 value=0 savecurrent=false}
-C {vsource.sym} 390 -1260 3 0 {name=V31 value=0 savecurrent=false}
-C {vsource.sym} 390 -980 3 0 {name=V32 value=0 savecurrent=false}
-C {vsource.sym} 390 -960 3 0 {name=V33 value=0 savecurrent=false}
-C {vsource.sym} 390 -940 3 0 {name=V34 value=0 savecurrent=false}
+C {sg13g2_hv_tielo.sym} 400 -380 0 0 {name=x8 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
+C {sg13g2_hv_tielo.sym} 400 -560 0 0 {name=x2 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
+C {sg13g2_hv_tielo.sym} 400 -1100 0 0 {name=x6 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
+C {net_tie.sym} 360 -1260 0 0 {name=x7}
+C {net_tie.sym} 360 -1240 0 0 {name=x9}
+C {net_tie.sym} 360 -1220 0 0 {name=x10}
+C {net_tie.sym} 360 -1200 0 0 {name=x11}
+C {net_tie.sym} 360 -1180 0 0 {name=x12}
+C {net_tie.sym} 360 -1160 0 0 {name=x13}
+C {net_tie.sym} 360 -1140 0 0 {name=x14}
+C {net_tie.sym} 360 -1120 0 0 {name=x15}
+C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/sym/xschem/sg13g2_tielo.sym} 520 -1100 0 0 {name=x16 VDD=VDD VSS=VSS prefix=sg13g2_ spice_ignore=true}
+C {net_tie.sym} 360 -520 0 0 {name=x18}
+C {net_tie.sym} 360 -500 0 0 {name=x19}
+C {net_tie.sym} 360 -480 0 0 {name=x20}
+C {net_tie.sym} 360 -460 0 0 {name=x21}
+C {net_tie.sym} 360 -440 0 0 {name=x22}
+C {net_tie.sym} 360 -420 0 0 {name=x23}
+C {net_tie.sym} 360 -400 0 0 {name=x24}
+C {net_tie.sym} 360 -720 0 0 {name=x25}
+C {net_tie.sym} 360 -700 0 0 {name=x26}
+C {net_tie.sym} 360 -680 0 0 {name=x27}
+C {net_tie.sym} 360 -660 0 0 {name=x28}
+C {net_tie.sym} 360 -640 0 0 {name=x29}
+C {net_tie.sym} 360 -620 0 0 {name=x30}
+C {net_tie.sym} 360 -600 0 0 {name=x31}
+C {net_tie.sym} 360 -580 0 0 {name=x32}
+C {net_tie.sym} 360 -900 0 0 {name=x33}
+C {net_tie.sym} 360 -880 0 0 {name=x34}
+C {net_tie.sym} 360 -860 0 0 {name=x35}
+C {net_tie.sym} 360 -840 0 0 {name=x36}
+C {net_tie.sym} 360 -820 0 0 {name=x37}
+C {net_tie.sym} 360 -800 0 0 {name=x38}
+C {net_tie.sym} 360 -780 0 0 {name=x39}
+C {net_tie.sym} 360 -760 0 0 {name=x40}
+C {net_tie.sym} 360 -980 0 0 {name=x17}
+C {net_tie.sym} 360 -960 0 0 {name=x41}
+C {net_tie.sym} 360 -940 0 0 {name=x42}
+C {net_tie.sym} 500 -260 0 0 {name=x43}
+C {lab_pin.sym} 480 -260 0 0 {name=p115 sig_type=std_logic lab=VGND
+}
+C {lab_pin.sym} 540 -260 0 1 {name=p116 sig_type=std_logic lab=VSS
+}
+C {net_tie.sym} 500 -220 0 0 {name=x44}
+C {lab_pin.sym} 480 -220 0 0 {name=p117 sig_type=std_logic lab=VPWR
+}
+C {lab_pin.sym} 540 -220 0 1 {name=p118 sig_type=std_logic lab=VDD
+}

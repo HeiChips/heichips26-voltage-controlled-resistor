@@ -1,0 +1,1276 @@
+
+Circuit 1 cell sg13_hv_nmos and Circuit 2 cell sg13_hv_nmos are black boxes.
+Warning: Equate pins:  cell sg13_hv_nmos is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sg13_hv_nmos is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sg13_hv_nmos                    |Circuit 2: sg13_hv_nmos                    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13_hv_nmos and sg13_hv_nmos are equivalent.
+
+Circuit 1 cell sg13_hv_pmos and Circuit 2 cell sg13_hv_pmos are black boxes.
+Warning: Equate pins:  cell sg13_hv_pmos is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sg13_hv_pmos is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sg13_hv_pmos                    |Circuit 2: sg13_hv_pmos                    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13_hv_pmos and sg13_hv_pmos are equivalent.
+
+Circuit 1 cell rppd and Circuit 2 cell rppd are black boxes.
+Warning: Equate pins:  cell rppd is a placeholder, treated as a black box.
+Warning: Equate pins:  cell rppd is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: rppd                            |Circuit 2: rppd                            
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes rppd and rppd are equivalent.
+
+Circuit 1 cell rsil and Circuit 2 cell rsil are black boxes.
+Warning: Equate pins:  cell rsil is a placeholder, treated as a black box.
+Warning: Equate pins:  cell rsil is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: rsil                            |Circuit 2: rsil                            
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes rsil and rsil are equivalent.
+
+Circuit 1 cell rhigh and Circuit 2 cell rhigh are black boxes.
+Warning: Equate pins:  cell rhigh is a placeholder, treated as a black box.
+Warning: Equate pins:  cell rhigh is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: rhigh                           |Circuit 2: rhigh                           
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes rhigh and rhigh are equivalent.
+Flattening unmatched subcell switched_cap_cell in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell transmission_gate in circuit heichips26_vcr (1)(4 instances)
+Flattening unmatched subcell osc in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_mux4 in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_nor4 in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_nor in circuit heichips26_vcr (1)(4 instances)
+Flattening unmatched subcell vco in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_rs-ff in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_nand in circuit heichips26_vcr (1)(2 instances)
+Flattening unmatched subcell comp_pmos in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell comp_nmos in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell voltage_mirror_pmos in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_inverter_6u5 in circuit heichips26_vcr (1)(2 instances)
+Flattening unmatched subcell bias_current_generator in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell current_reference_40uA in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell pulse_shaper_en in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell low_th_inverter in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell high_th_inverter in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_inverter_40u in circuit heichips26_vcr (1)(5 instances)
+Flattening unmatched subcell hv_inverter_0u3 in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_nor in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_nand in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_binary_decoder4 in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_inverter_40u in circuit heichips26_vcr (1)(2 instances)
+Flattening unmatched subcell hv_nand in circuit heichips26_vcr (1)(4 instances)
+Flattening unmatched subcell lvl_shift_up in circuit heichips26_vcr (1)(4 instances)
+Flattening unmatched subcell hv_inverter_6u5 in circuit heichips26_vcr (1)(4 instances)
+Flattening unmatched subcell YadavVCR in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell analog_switch_3pst in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell transmission_gate in circuit heichips26_vcr (1)(3 instances)
+Flattening unmatched subcell hv_inverter_40u in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell lvl_shift_up in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell hv_inverter_6u5 in circuit heichips26_vcr (1)(1 instance)
+Flattening unmatched subcell sg13g2_hv_tielo in circuit heichips26_vcr (1)(3 instances)
+Flattening unmatched subcell net_tie in circuit heichips26_vcr (1)(36 instances)
+
+Cell heichips26_vcr (0) disconnected node: clk
+Cell heichips26_vcr (0) disconnected node: ena
+Cell heichips26_vcr (0) disconnected node: rst_n
+Cell heichips26_vcr (1) disconnected node: rst_n
+Cell heichips26_vcr (1) disconnected node: clk
+Cell heichips26_vcr (1) disconnected node: ena
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Removing zero-valued device vsrc from cell heichips26_vcr (1) makes a better match
+Making another compare attempt.
+
+Cell heichips26_vcr (0) disconnected node: clk
+Cell heichips26_vcr (0) disconnected node: ena
+Cell heichips26_vcr (0) disconnected node: rst_n
+Cell heichips26_vcr (1) disconnected node: rst_n
+Cell heichips26_vcr (1) disconnected node: clk
+Cell heichips26_vcr (1) disconnected node: ena
+Class heichips26_vcr (0):  Merged 512 parallel devices.
+Class heichips26_vcr (0):  Merged 40 series devices.
+Class heichips26_vcr (1):  Merged 3 parallel devices.
+Cell heichips26_vcr (0) disconnected node: clk
+Cell heichips26_vcr (0) disconnected node: ena
+Cell heichips26_vcr (0) disconnected node: rst_n
+Cell heichips26_vcr (1) disconnected node: rst_n
+Cell heichips26_vcr (1) disconnected node: clk
+Cell heichips26_vcr (1) disconnected node: ena
+Subcircuit summary:
+Circuit 1: heichips26_vcr                  |Circuit 2: heichips26_vcr                  
+-------------------------------------------|-------------------------------------------
+sg13_hv_pmos (351->93)                     |sg13_hv_pmos (93)                          
+sg13_hv_nmos (352->98)                     |sg13_hv_nmos (101->98)                     
+rppd (2->1)                                |rppd (1)                                   
+rhigh (11->3)                              |rhigh (3)                                  
+rsil (32->1)                               |rsil (1)                                   
+Number of devices: 196                     |Number of devices: 196                     
+Number of nets: 107                        |Number of nets: 107                        
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely with port and property errors.
+rsil:668 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/rsil:R3:
+ l circuit1: 0.00032   circuit2: 0.000365   (delta=13.1%, cutoff=1%)
+rsil:668 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/rsil:R3:
+Property mm_ok in circuit2 has no matching property in circuit1
+rsil:668 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/rsil:R3:
+Property mm_ok in circuit2 has no matching property in circuit1
+rhigh:340 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/rhigh:R1:
+Property mm_ok in circuit2 has no matching property in circuit1
+rhigh:340 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/rhigh:R1:
+Property mm_ok in circuit2 has no matching property in circuit1
+rhigh:224 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/rhigh:R2:
+Property mm_ok in circuit2 has no matching property in circuit1
+rhigh:224 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/rhigh:R2:
+Property mm_ok in circuit2 has no matching property in circuit1
+rhigh:318 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/rhigh:R3:
+Property mm_ok in circuit2 has no matching property in circuit1
+rhigh:318 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/rhigh:R3:
+Property mm_ok in circuit2 has no matching property in circuit1
+rppd:196 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/rppd:R2:
+Property mm_ok in circuit2 has no matching property in circuit1
+rppd:196 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/rppd:R2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:42 vs. switched_cap_cell:1/transmission_gate:2/sg13_hv_nmos:M3:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:42 vs. switched_cap_cell:1/transmission_gate:2/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:30 vs. switched_cap_cell:1/transmission_gate:6/sg13_hv_nmos:M3:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:30 vs. switched_cap_cell:1/transmission_gate:6/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:198 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_nmos:M6:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:198 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_nmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:145 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_nmos:M5:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:145 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:100 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:100 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:25 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:25 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:230 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:4/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:230 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:4/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:64 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:5/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:64 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:5/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:49 vs. switched_cap_cell:1/vco:5/sg13_hv_nmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:49 vs. switched_cap_cell:1/vco:5/sg13_hv_nmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:245 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:4/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:245 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:162 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:4/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:162 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:4/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:78 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:5/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:78 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:5/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:120 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M16:
+ l circuit1: 1.5e-06   "n_l"  (property type mismatch)
+ w circuit1: 1.2e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:120 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M16:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:120 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M16:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:736 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M8:
+ l circuit1: 1.5e-06   "n_l"  (property type mismatch)
+ w circuit1: 1.2e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:736 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:736 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:582 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M3:
+ l circuit1: 1.5e-06   "n_l"  (property type mismatch)
+ w circuit1: 1.2e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:582 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:582 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:97 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M4:
+ l circuit1: 1.5e-06   "n_l"  (property type mismatch)
+ w circuit1: 2.4e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:97 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:97 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:81 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M5:
+ l circuit1: 1.5e-06   "n_l"  (property type mismatch)
+ w circuit1: 2.4e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:81 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:81 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:358 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_nmos:M3:
+ l circuit1: 5e-06   "n_l"  (property type mismatch)
+ w circuit1: 6e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:358 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:333 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M15:
+ l circuit1: 5e-06   "cm_n_l"  (property type mismatch)
+ w circuit1: 6e-06   "cm_n_w"  (property type mismatch)
+sg13_hv_nmos:333 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M15:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:333 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M15:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:148 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:5/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:148 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:5/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:67 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:2/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:67 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:2/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:627 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M5:
+ l circuit1: 5e-06   "cm_n_l"  (property type mismatch)
+ w circuit1: 6e-06   "cm_n_w"  (property type mismatch)
+sg13_hv_nmos:627 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:627 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:361 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M7:
+ l circuit1: 1.5e-06   "n_l"  (property type mismatch)
+ w circuit1: 1.2e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:361 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M7:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:361 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_nmos:M7:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:219 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M2:
+ l circuit1: 5e-06   "cm_n_l"  (property type mismatch)
+ w circuit1: 2.4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:219 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:187 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:2/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:187 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:2/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:152 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:4/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:152 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:116 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:6/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:116 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:6/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:104 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_nmos:M8:
+ l circuit1: 5e-06   "n_l"  (property type mismatch)
+ w circuit1: 6e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:104 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_nmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:104 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_nmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:38 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:6/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:38 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:6/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:630 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M29:
+ l circuit1: 5e-06   "cm_n_l"  (property type mismatch)
+ w circuit1: 6e-06   "cm_n_w"  (property type mismatch)
+sg13_hv_nmos:630 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M29:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:630 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M29:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:622 vs. switched_cap_cell:1/osc:1/sg13_hv_nmos:M12:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:622 vs. switched_cap_cell:1/osc:1/sg13_hv_nmos:M12:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:5 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:5/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:5 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:5/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:293 vs. switched_cap_cell:1/pulse_shaper_en:3/low_th_inverter:7/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:293 vs. switched_cap_cell:1/pulse_shaper_en:3/low_th_inverter:7/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:121 vs. switched_cap_cell:1/pulse_shaper_en:3/high_th_inverter:8/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:121 vs. switched_cap_cell:1/pulse_shaper_en:3/high_th_inverter:8/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:136 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_40u:10/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:136 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_40u:10/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:32 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_40u:11/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:32 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_40u:11/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:387 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_0u3:1/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 3e-07   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:387 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_0u3:1/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:387 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_0u3:1/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:517 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M3:
+ l circuit1: 5e-06   "cm_n_l"  (property type mismatch)
+ w circuit1: 6e-06   "cm_n_w"  (property type mismatch)
+sg13_hv_nmos:517 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:517 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:239 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_nmos:M7:
+ l circuit1: 5e-06   "n_l"  (property type mismatch)
+ w circuit1: 6e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:239 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_nmos:M7:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:239 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_nmos:M7:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:98 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nor:5/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:98 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nor:5/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:178 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nand:4/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:178 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nand:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:19 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nand:4/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:19 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nand:4/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:34 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:7/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:34 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:7/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:223 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:9/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:223 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:9/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:111 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:7/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:111 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:7/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:384 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_inverter_40u:10/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:384 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_inverter_40u:10/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:128 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_inverter_40u:3/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:128 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_inverter_40u:3/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:58 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:11/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:58 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:11/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:287 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:8/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:287 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:8/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:146 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:9/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:146 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:9/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:142 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:11/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:142 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:11/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:62 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:8/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:62 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:8/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:7 vs. switched_cap_cell:1/transmission_gate:8/sg13_hv_nmos:M3:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:7 vs. switched_cap_cell:1/transmission_gate:8/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:99 vs. switched_cap_cell:1/hv_inverter_40u:9/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:99 vs. switched_cap_cell:1/hv_inverter_40u:9/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:636 vs. switched_cap_cell:1/lvl_shift_up:12/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:636 vs. switched_cap_cell:1/lvl_shift_up:12/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:636 vs. switched_cap_cell:1/lvl_shift_up:12/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:507 vs. switched_cap_cell:1/lvl_shift_up:11/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:507 vs. switched_cap_cell:1/lvl_shift_up:11/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:507 vs. switched_cap_cell:1/lvl_shift_up:11/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:303 vs. switched_cap_cell:1/hv_inverter_40u:14/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:303 vs. switched_cap_cell:1/hv_inverter_40u:14/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:66 vs. switched_cap_cell:1/transmission_gate:16/sg13_hv_nmos:M3:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:66 vs. switched_cap_cell:1/transmission_gate:16/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:60 vs. YadavVCR:5/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:60 vs. YadavVCR:5/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:514 vs. YadavVCR:5/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:514 vs. YadavVCR:5/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:344 vs. YadavVCR:5/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:344 vs. YadavVCR:5/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:213 vs. YadavVCR:5/sg13_hv_nmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:213 vs. YadavVCR:5/sg13_hv_nmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:707 vs. YadavVCR:5/sg13_hv_nmos:M7:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:707 vs. YadavVCR:5/sg13_hv_nmos:M7:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:688 vs. YadavVCR:5/sg13_hv_nmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:688 vs. YadavVCR:5/sg13_hv_nmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:480 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M14:
+ l circuit1: 1.5e-06   "n_l"  (property type mismatch)
+ w circuit1: 1.2e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:480 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M14:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:480 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M14:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:251 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_nmos:M5:
+ l circuit1: 5e-06   "n_l"  (property type mismatch)
+ w circuit1: 6e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:251 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:251 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_nmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:396 vs. YadavVCR:5/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:396 vs. YadavVCR:5/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:645 vs. YadavVCR:5/sg13_hv_nmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:645 vs. YadavVCR:5/sg13_hv_nmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:702 vs. switched_cap_cell:1/osc:1/sg13_hv_nmos:M11:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:702 vs. switched_cap_cell:1/osc:1/sg13_hv_nmos:M11:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:677 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M28:
+ l circuit1: 5e-06   "cm_n_l"  (property type mismatch)
+ w circuit1: 6e-06   "cm_n_w"  (property type mismatch)
+sg13_hv_nmos:677 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M28:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:677 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M28:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:606 vs. switched_cap_cell:1/osc:1/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:606 vs. switched_cap_cell:1/osc:1/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:591 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M15:
+ l circuit1: 1.5e-06   "n_l"  (property type mismatch)
+ w circuit1: 1.2e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:591 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M15:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:591 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_nmos:M15:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:453 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:6/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:453 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:6/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:453 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:6/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:382 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_nmos:M2:
+ l circuit1: 5e-06   "n_l"  (property type mismatch)
+ w circuit1: 6e-06   "n_w"  (property type mismatch)
+sg13_hv_nmos:382 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:382 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:649 vs. YadavVCR:5/sg13_hv_nmos:M11:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:649 vs. YadavVCR:5/sg13_hv_nmos:M11:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:182 vs. YadavVCR:5/sg13_hv_nmos:M9:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:182 vs. YadavVCR:5/sg13_hv_nmos:M9:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:155 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:3/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:155 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:3/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:155 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:3/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:132 vs. switched_cap_cell:1/lvl_shift_up:10/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:132 vs. switched_cap_cell:1/lvl_shift_up:10/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:132 vs. switched_cap_cell:1/lvl_shift_up:10/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:52 vs. switched_cap_cell:1/osc:1/sg13_hv_nmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:52 vs. switched_cap_cell:1/osc:1/sg13_hv_nmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:26 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M14:
+ l circuit1: 5e-06   "cm_n_l"  (property type mismatch)
+ w circuit1: 6e-06   "cm_n_w"  (property type mismatch)
+sg13_hv_nmos:26 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M14:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:26 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_nmos:M14:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:345 vs. YadavVCR:5/sg13_hv_nmos:M10:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:345 vs. YadavVCR:5/sg13_hv_nmos:M10:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:61 vs. YadavVCR:5/sg13_hv_nmos:M12:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:61 vs. YadavVCR:5/sg13_hv_nmos:M12:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:22 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nor:5/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:22 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nor:5/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:217 vs. switched_cap_cell:1/hv_inverter_40u:15/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:217 vs. switched_cap_cell:1/hv_inverter_40u:15/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:4 vs. analog_switch_3pst:3/hv_inverter_40u:7/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 1.2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:4 vs. analog_switch_3pst:3/hv_inverter_40u:7/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:370 vs. switched_cap_cell:1/lvl_shift_up:10/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:370 vs. switched_cap_cell:1/lvl_shift_up:10/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:28 vs. switched_cap_cell:1/lvl_shift_up:11/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:28 vs. switched_cap_cell:1/lvl_shift_up:11/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:386 vs. switched_cap_cell:1/lvl_shift_up:12/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:386 vs. switched_cap_cell:1/lvl_shift_up:12/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:79 vs. switched_cap_cell:1/lvl_shift_up:13/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:79 vs. switched_cap_cell:1/lvl_shift_up:13/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:9 vs. analog_switch_3pst:3/lvl_shift_up:8/sg13_hv_nmos:M1:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:9 vs. analog_switch_3pst:3/lvl_shift_up:8/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:567 vs. switched_cap_cell:1/lvl_shift_up:13/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:567 vs. switched_cap_cell:1/lvl_shift_up:13/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:567 vs. switched_cap_cell:1/lvl_shift_up:13/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:96 vs. analog_switch_3pst:3/lvl_shift_up:8/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:96 vs. analog_switch_3pst:3/lvl_shift_up:8/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:96 vs. analog_switch_3pst:3/lvl_shift_up:8/hv_inverter_6u5:4/sg13_hv_nmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:43 vs. analog_switch_3pst:3/transmission_gate:6/sg13_hv_nmos:M3:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:43 vs. analog_switch_3pst:3/transmission_gate:6/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:10 vs. analog_switch_3pst:3/transmission_gate:3/sg13_hv_nmos:M3:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:10 vs. analog_switch_3pst:3/transmission_gate:3/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:1 vs. analog_switch_3pst:3/transmission_gate:1/sg13_hv_nmos:M3:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_nmos:1 vs. analog_switch_3pst:3/transmission_gate:1/sg13_hv_nmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:713 vs. sg13g2_hv_tielo:2/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:713 vs. sg13g2_hv_tielo:2/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:352 vs. sg13g2_hv_tielo:8/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:352 vs. sg13g2_hv_tielo:8/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:143 vs. sg13g2_hv_tielo:6/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_nmos:143 vs. sg13g2_hv_tielo:6/sg13_hv_nmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:29 vs. switched_cap_cell:1/transmission_gate:2/sg13_hv_pmos:M4:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 0.0001   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:29 vs. switched_cap_cell:1/transmission_gate:2/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:8 vs. switched_cap_cell:1/transmission_gate:6/sg13_hv_pmos:M4:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 0.0001   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:8 vs. switched_cap_cell:1/transmission_gate:6/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:608 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:608 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:515 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:515 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:63 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:63 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:562 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:562 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M5:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:11 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:11 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:18 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_pmos:M7:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:18 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_pmos:M7:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:12 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_pmos:M8:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:12 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_pmos:M8:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:291 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:4/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:291 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:464 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:5/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:464 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:5/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:127 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:2/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:127 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:2/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:379 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:5/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:379 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:5/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:557 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:6/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:557 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:6/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:211 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:4/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:211 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:4/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:57 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:2/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:57 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:2/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:209 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:4/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:209 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:289 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:4/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:289 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:4/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:125 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:5/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:125 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:5/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:53 vs. switched_cap_cell:1/vco:5/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:53 vs. switched_cap_cell:1/vco:5/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:502 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M9:
+ l circuit1: 4e-07   "p_l"  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:502 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M9:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:502 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M9:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:407 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M12:
+ l circuit1: 4e-07   "p_l"  (property type mismatch)
+ w circuit1: 2e-06   "p_w"  (property type mismatch)
+sg13_hv_pmos:407 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M12:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:407 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M12:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:500 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M13:
+ l circuit1: 4e-07   "p_l"  (property type mismatch)
+ w circuit1: 2e-06   "p_w"  (property type mismatch)
+sg13_hv_pmos:500 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M13:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:500 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M13:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:434 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M1:
+ l circuit1: 4e-07   "p_l"  (property type mismatch)
+ w circuit1: 2e-06   "p_w"  (property type mismatch)
+sg13_hv_pmos:434 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:434 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:528 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M2:
+ l circuit1: 4e-07   "p_l"  (property type mismatch)
+ w circuit1: 2e-06   "p_w"  (property type mismatch)
+sg13_hv_pmos:528 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:528 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:269 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_pmos:M6:
+ l circuit1: 2e-06   "p_l"  (property type mismatch)
+ w circuit1: 1e-05   "p_w"  (property type mismatch)
+sg13_hv_pmos:269 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:269 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:44 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:5/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:44 vs. switched_cap_cell:1/vco:5/hv_rs-ff:1/hv_nand:5/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:501 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M11:
+ l circuit1: 4e-07   "p_l"  (property type mismatch)
+ w circuit1: 2e-06   "p_w"  (property type mismatch)
+sg13_hv_pmos:501 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M11:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:501 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M11:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:321 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M25:
+ l circuit1: 2e-06   "cm_p_l"  (property type mismatch)
+ w circuit1: 2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:321 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M25:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:698 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M10:
+ l circuit1: 4e-07   "p_l"  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:698 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M10:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:698 vs. switched_cap_cell:1/vco:5/comp_pmos:5/sg13_hv_pmos:M10:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:600 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M26:
+ l circuit1: 2e-06   "cm_p_l"  (property type mismatch)
+ w circuit1: 1e-05   "cm_p_w"  (property type mismatch)
+sg13_hv_pmos:600 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M26:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:414 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_40u:10/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:414 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_40u:10/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:48 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_pmos:M3:
+ l circuit1: 2e-06   "p_l"  (property type mismatch)
+ w circuit1: 1e-05   "p_w"  (property type mismatch)
+sg13_hv_pmos:48 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:48 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:16 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_40u:11/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:16 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_40u:11/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:744 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_0u3:1/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 3e-07   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:744 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_0u3:1/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:744 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_inverter_0u3:1/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:179 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nor:5/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:179 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nor:5/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:168 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:168 vs. switched_cap_cell:1/hv_mux4:4/hv_nor4:1/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:113 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M27:
+ l circuit1: 2e-06   "cm_p_l"  (property type mismatch)
+ w circuit1: 1e-05   "cm_p_w"  (property type mismatch)
+sg13_hv_pmos:113 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M27:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:73 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:6/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:73 vs. switched_cap_cell:1/hv_mux4:4/hv_nor:6/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:241 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nor:5/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:241 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nor:5/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:437 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nand:4/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:437 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nand:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:265 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nand:4/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:265 vs. switched_cap_cell:1/pulse_shaper_en:3/hv_nand:4/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:398 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:9/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:398 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:9/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:2 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:7/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:2 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:7/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:0 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:7/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:0 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:7/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:108 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_inverter_40u:3/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:108 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_inverter_40u:3/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:45 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_inverter_40u:10/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:45 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_inverter_40u:10/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:13 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:11/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:13 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:11/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:676 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:676 vs. switched_cap_cell:1/osc:1/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:484 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:11/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:484 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:11/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:408 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M1:
+ l circuit1: 2e-06   "cm_p_l"  (property type mismatch)
+ w circuit1: 1e-05   "cm_p_w"  (property type mismatch)
+sg13_hv_pmos:408 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:376 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:8/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:376 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:8/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:236 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:8/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:236 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:8/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:225 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:9/sg13_hv_pmos:M4:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:225 vs. switched_cap_cell:1/hv_binary_decoder4:7/hv_nand:9/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:27 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M12:
+ l circuit1: 2e-06   "cm_p_l"  (property type mismatch)
+ w circuit1: 1e-05   "cm_p_w"  (property type mismatch)
+sg13_hv_pmos:27 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M12:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:15 vs. switched_cap_cell:1/transmission_gate:8/sg13_hv_pmos:M4:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 0.0001   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:15 vs. switched_cap_cell:1/transmission_gate:8/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:123 vs. switched_cap_cell:1/hv_inverter_40u:9/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:123 vs. switched_cap_cell:1/hv_inverter_40u:9/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:604 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:3/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 6.5e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:604 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:3/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:604 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:3/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:529 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M6:
+ l circuit1: 4e-07   "p_l"  (property type mismatch)
+ w circuit1: 2e-06   "p_w"  (property type mismatch)
+sg13_hv_pmos:529 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:529 vs. switched_cap_cell:1/vco:5/comp_nmos:7/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:448 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_pmos:M1:
+ l circuit1: 2e-06   "p_l"  (property type mismatch)
+ w circuit1: 1e-05   "p_w"  (property type mismatch)
+sg13_hv_pmos:448 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_pmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:448 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/current_reference_40uA:4/sg13_hv_pmos:M1:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:417 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:6/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 6.5e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:417 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:6/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:417 vs. switched_cap_cell:1/vco:5/hv_inverter_6u5:6/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:189 vs. switched_cap_cell:1/lvl_shift_up:10/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 6.5e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:189 vs. switched_cap_cell:1/lvl_shift_up:10/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:189 vs. switched_cap_cell:1/lvl_shift_up:10/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:612 vs. switched_cap_cell:1/lvl_shift_up:12/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 6.5e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:612 vs. switched_cap_cell:1/lvl_shift_up:12/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:612 vs. switched_cap_cell:1/lvl_shift_up:12/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:558 vs. switched_cap_cell:1/lvl_shift_up:11/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 6.5e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:558 vs. switched_cap_cell:1/lvl_shift_up:11/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:558 vs. switched_cap_cell:1/lvl_shift_up:11/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:149 vs. switched_cap_cell:1/hv_inverter_40u:14/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:149 vs. switched_cap_cell:1/hv_inverter_40u:14/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:6 vs. switched_cap_cell:1/transmission_gate:16/sg13_hv_pmos:M4:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 0.0001   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:6 vs. switched_cap_cell:1/transmission_gate:16/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:722 vs. YadavVCR:5/sg13_hv_pmos:M18:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:722 vs. YadavVCR:5/sg13_hv_pmos:M18:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:619 vs. YadavVCR:5/sg13_hv_pmos:M14:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:619 vs. YadavVCR:5/sg13_hv_pmos:M14:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:337 vs. switched_cap_cell:1/pulse_shaper_en:3/low_th_inverter:7/sg13_hv_pmos:M2:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:337 vs. switched_cap_cell:1/pulse_shaper_en:3/low_th_inverter:7/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:204 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M13:
+ l circuit1: 2e-06   "cm_p_l"  (property type mismatch)
+ w circuit1: 1e-05   "cm_p_w"  (property type mismatch)
+sg13_hv_pmos:204 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M13:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:170 vs. switched_cap_cell:1/pulse_shaper_en:3/high_th_inverter:8/sg13_hv_pmos:M2:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:170 vs. switched_cap_cell:1/pulse_shaper_en:3/high_th_inverter:8/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:131 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_pmos:M4:
+ l circuit1: 2e-06   "p_l"  (property type mismatch)
+ w circuit1: 1e-05   "p_w"  (property type mismatch)
+sg13_hv_pmos:131 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:131 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:581 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M11:
+ l circuit1: 2e-06   "cm_p_l"  (property type mismatch)
+ w circuit1: 1e-05   "cm_p_w"  (property type mismatch)
+sg13_hv_pmos:581 vs. switched_cap_cell:1/vco:5/bias_current_generator:8/sg13_hv_pmos:M11:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:548 vs. YadavVCR:5/sg13_hv_pmos:M16:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:548 vs. YadavVCR:5/sg13_hv_pmos:M16:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:496 vs. YadavVCR:5/sg13_hv_pmos:M13:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:496 vs. YadavVCR:5/sg13_hv_pmos:M13:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:91 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_pmos:M6:
+ l circuit1: 2e-06   "p_l"  (property type mismatch)
+ w circuit1: 1.9e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:91 vs. switched_cap_cell:1/vco:5/voltage_mirror_pmos:2/sg13_hv_pmos:M6:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:72 vs. YadavVCR:5/sg13_hv_pmos:M17:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:72 vs. YadavVCR:5/sg13_hv_pmos:M17:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:673 vs. YadavVCR:5/sg13_hv_pmos:M15:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:673 vs. YadavVCR:5/sg13_hv_pmos:M15:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:497 vs. switched_cap_cell:1/hv_inverter_40u:15/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:497 vs. switched_cap_cell:1/hv_inverter_40u:15/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:65 vs. analog_switch_3pst:3/hv_inverter_40u:7/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 4e-05   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:65 vs. analog_switch_3pst:3/hv_inverter_40u:7/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:301 vs. switched_cap_cell:1/lvl_shift_up:13/sg13_hv_pmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:301 vs. switched_cap_cell:1/lvl_shift_up:13/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:439 vs. analog_switch_3pst:3/lvl_shift_up:8/sg13_hv_pmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:439 vs. analog_switch_3pst:3/lvl_shift_up:8/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:205 vs. switched_cap_cell:1/lvl_shift_up:11/sg13_hv_pmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:205 vs. switched_cap_cell:1/lvl_shift_up:11/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:173 vs. switched_cap_cell:1/lvl_shift_up:12/sg13_hv_pmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:173 vs. switched_cap_cell:1/lvl_shift_up:12/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:101 vs. switched_cap_cell:1/lvl_shift_up:10/sg13_hv_pmos:M2:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 2e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:101 vs. switched_cap_cell:1/lvl_shift_up:10/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:667 vs. switched_cap_cell:1/lvl_shift_up:13/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 6.5e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:667 vs. switched_cap_cell:1/lvl_shift_up:13/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:667 vs. switched_cap_cell:1/lvl_shift_up:13/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:394 vs. analog_switch_3pst:3/lvl_shift_up:8/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+ l circuit1: 4e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 6.5e-06   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:394 vs. analog_switch_3pst:3/lvl_shift_up:8/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:394 vs. analog_switch_3pst:3/lvl_shift_up:8/hv_inverter_6u5:4/sg13_hv_pmos:M3:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:23 vs. analog_switch_3pst:3/transmission_gate:1/sg13_hv_pmos:M4:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 0.0001   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:23 vs. analog_switch_3pst:3/transmission_gate:1/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:20 vs. analog_switch_3pst:3/transmission_gate:6/sg13_hv_pmos:M4:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 0.0001   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:20 vs. analog_switch_3pst:3/transmission_gate:6/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:3 vs. analog_switch_3pst:3/transmission_gate:3/sg13_hv_pmos:M4:
+ l circuit1: 4.5e-07   (unresolved expression)  (property type mismatch)
+ w circuit1: 0.0001   (unresolved expression)  (property type mismatch)
+sg13_hv_pmos:3 vs. analog_switch_3pst:3/transmission_gate:3/sg13_hv_pmos:M4:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:406 vs. sg13g2_hv_tielo:6/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:406 vs. sg13g2_hv_tielo:6/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:206 vs. sg13g2_hv_tielo:2/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:206 vs. sg13g2_hv_tielo:2/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:55 vs. sg13g2_hv_tielo:8/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+sg13_hv_pmos:55 vs. sg13g2_hv_tielo:8/sg13_hv_pmos:M2:
+Property mm_ok in circuit2 has no matching property in circuit1
+
+Subcircuit pins:
+Circuit 1: heichips26_vcr                  |Circuit 2: heichips26_vcr                  
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+uo_out[7]                                  |uo_out[7]                                  
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[7]                                   |ui_in[7]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[3]                                   |ui_in[3]                                   
+uio_in[7]                                  |uio_in[7]                                  
+uo_out[6]                                  |uo_out[6]                                  
+ui_in[2]                                   |ui_in[2]                                   
+VGND                                       |VGND                                       
+analog_2                                   |analog_2                                   
+analog_1                                   |analog_1                                   
+analog_0                                   |analog_0                                   
+VAPWR                                      |VAPWR                                      
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+(no pin, node is uio_in[7])                |uio_in[6]                                  
+(no pin, node is uio_in[7])                |uio_in[5]                                  
+(no pin, node is uio_in[7])                |uio_in[4]                                  
+(no pin, node is uio_in[7])                |uio_in[3]                                  
+(no pin, node is uio_in[7])                |uio_in[2]                                  
+(no pin, node is uio_in[7])                |uio_in[1]                                  
+(no pin, node is uio_in[7])                |uio_in[0]                                  
+(no pin, node is ui_in[2])                 |ui_in[1]                                   
+(no pin, node is ui_in[2])                 |ui_in[0]                                   
+(no pin, node is ui_in[2])                 |uio_oe[7]                                  
+(no pin, node is ui_in[2])                 |uio_oe[6]                                  
+(no pin, node is ui_in[2])                 |uio_oe[5]                                  
+(no pin, node is ui_in[2])                 |uio_oe[4]                                  
+(no pin, node is ui_in[2])                 |uio_oe[3]                                  
+(no pin, node is ui_in[2])                 |uio_oe[2]                                  
+(no pin, node is ui_in[2])                 |uio_oe[1]                                  
+(no pin, node is ui_in[2])                 |uio_oe[0]                                  
+(no pin, node is ui_in[2])                 |uio_out[7]                                 
+(no pin, node is ui_in[2])                 |uio_out[6]                                 
+(no pin, node is ui_in[2])                 |uio_out[5]                                 
+(no pin, node is ui_in[2])                 |uio_out[4]                                 
+(no pin, node is ui_in[2])                 |uio_out[3]                                 
+(no pin, node is ui_in[2])                 |uio_out[2]                                 
+(no pin, node is ui_in[2])                 |uio_out[1]                                 
+(no pin, node is ui_in[2])                 |uio_out[0]                                 
+(no pin, node is uo_out[6])                |uo_out[5]                                  
+(no pin, node is uo_out[6])                |uo_out[4]                                  
+(no pin, node is uo_out[6])                |uo_out[3]                                  
+(no pin, node is uo_out[6])                |uo_out[2]                                  
+(no pin, node is uo_out[6])                |uo_out[1]                                  
+(no pin, node is uo_out[6])                |uo_out[0]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists for heichips26_vcr and heichips26_vcr altered to match.
+Device classes heichips26_vcr and heichips26_vcr are equivalent.
+
+Final result: Top level cell failed pin matching.
+
+The following cells had property errors:
+ heichips26_vcr
