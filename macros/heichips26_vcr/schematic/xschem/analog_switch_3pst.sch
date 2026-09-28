@@ -37,11 +37,11 @@ N 80 580 100 580 {lab=#net1}
 N 60 200 100 200 {lab=sw1_p1}
 N 60 400 100 400 {lab=sw2_p1}
 N 60 600 100 600 {lab=sw3_p1}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/transmission_gate.sym} 180 180 0 0 {name=x6}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/hv_inverter_40u.sym} 0 0 0 0 {name=x7}
+C {../../macros/switched_capacitor/schematic/xschem/transmission_gate.sym} 180 180 0 0 {name=x6}
+C {../../macros/switched_capacitor/schematic/xschem/hv_inverter_40u.sym} 0 0 0 0 {name=x7}
 C {lab_pin.sym} 180 260 0 1 {name=p1 sig_type=std_logic lab=VGND}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/transmission_gate.sym} 180 380 0 0 {name=x3}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/lvl_shift_up.sym} -140 0 0 0 {name=x8}
+C {../../macros/switched_capacitor/schematic/xschem/transmission_gate.sym} 180 380 0 0 {name=x3}
+C {../../macros/switched_capacitor/schematic/xschem/lvl_shift_up.sym} -140 0 0 0 {name=x8}
 C {lab_pin.sym} -140 60 3 0 {name=p77 sig_type=std_logic lab=VGND}
 C {lab_pin.sym} -140 -60 1 0 {name=p78 sig_type=std_logic lab=VAPWR}
 C {devices/iopin.sym} 60 200 2 0 {name=p64 lab=sw1_p1}
@@ -51,7 +51,7 @@ C {devices/iopin.sym} 0 60 3 1 {name=p6 lab=VGND}
 C {devices/iopin.sym} 60 400 2 0 {name=p5 lab=sw2_p1}
 C {devices/iopin.sym} 280 200 0 0 {name=p7 lab=sw1_p2}
 C {devices/iopin.sym} 280 400 0 0 {name=p8 lab=sw2_p2}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/transmission_gate.sym} 180 580 0 0 {name=x1}
+C {../../macros/switched_capacitor/schematic/xschem/transmission_gate.sym} 180 580 0 0 {name=x1}
 C {devices/iopin.sym} 60 600 2 0 {name=p11 lab=sw3_p1}
 C {devices/iopin.sym} 280 600 0 0 {name=p12 lab=sw3_p2}
 C {lab_pin.sym} 180 100 0 1 {name=p2 sig_type=std_logic lab=VAPWR}
