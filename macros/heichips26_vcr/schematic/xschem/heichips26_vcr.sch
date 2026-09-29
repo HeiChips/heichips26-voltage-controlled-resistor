@@ -264,8 +264,8 @@ N 380 -940 400 -940 {lab=#net5}
 N 400 -940 400 -900 {lab=#net5}
 N 480 -260 500 -260 {lab=VGND}
 N 520 -260 540 -260 {lab=VSS}
-N 480 -220 500 -220 {lab=VGND}
-N 520 -220 540 -220 {lab=VSS}
+N 480 -220 500 -220 {lab=VPWR}
+N 520 -220 540 -220 {lab=VDD}
 C {title-3.sym} 0 0 0 0 {name=l1 author="Simon Dorrer" rev=1.0 lock=true}
 C {lab_pin.sym} 2260 -800 1 0 {name=p25 sig_type=std_logic lab=VAPWR
 spice_ignore=true}
@@ -424,9 +424,6 @@ C {lab_pin.sym} 340 -860 0 0 {name=p111 sig_type=std_logic lab=uio_oe[5]}
 C {lab_pin.sym} 340 -840 0 0 {name=p112 sig_type=std_logic lab=uio_oe[4]}
 C {lab_pin.sym} 340 -900 0 0 {name=p113 sig_type=std_logic lab=uio_oe[7]}
 C {lab_pin.sym} 340 -820 0 0 {name=p114 sig_type=std_logic lab=uio_oe[3]}
-C {sg13g2_hv_tielo.sym} 400 -380 0 0 {name=x8 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
-C {sg13g2_hv_tielo.sym} 400 -560 0 0 {name=x2 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
-C {sg13g2_hv_tielo.sym} 400 -1100 0 0 {name=x6 VDD=VDD VSS=VSS prefix=sg13g2_hv_ }
 C {net_tie.sym} 360 -1260 0 0 {name=x7}
 C {net_tie.sym} 360 -1240 0 0 {name=x9}
 C {net_tie.sym} 360 -1220 0 0 {name=x10}
@@ -435,7 +432,7 @@ C {net_tie.sym} 360 -1180 0 0 {name=x12}
 C {net_tie.sym} 360 -1160 0 0 {name=x13}
 C {net_tie.sym} 360 -1140 0 0 {name=x14}
 C {net_tie.sym} 360 -1120 0 0 {name=x15}
-C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/sym/xschem/sg13g2_tielo.sym} 520 -1100 0 0 {name=x16 VDD=VDD VSS=VSS prefix=sg13g2_ spice_ignore=true}
+C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/sym/xschem/sg13g2_tielo.sym} 400 -1100 0 0 {name=x16 VDD=VDD VSS=VSS prefix=sg13g2_ }
 C {net_tie.sym} 360 -520 0 0 {name=x18}
 C {net_tie.sym} 360 -500 0 0 {name=x19}
 C {net_tie.sym} 360 -480 0 0 {name=x20}
@@ -472,3 +469,5 @@ C {lab_pin.sym} 480 -220 0 0 {name=p117 sig_type=std_logic lab=VPWR
 }
 C {lab_pin.sym} 540 -220 0 1 {name=p118 sig_type=std_logic lab=VDD
 }
+C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/sym/xschem/sg13g2_tielo.sym} 400 -560 0 0 {name=x2 VDD=VDD VSS=VSS prefix=sg13g2_ }
+C {/home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13g2/libs.ref/sg13g2_stdcell/sym/xschem/sg13g2_tielo.sym} 400 -380 0 0 {name=x6 VDD=VDD VSS=VSS prefix=sg13g2_ }
