@@ -16,48 +16,18 @@
 *connector(8,1) ?1 uo_out[7] ?1 uo_out[6] ?1 uo_out[5] ?1 uo_out[4] ?1 uo_out[3] ?1 uo_out[2] ?1 uo_out[1] ?1 uo_out[0]
 *connector(3,1) ?1 VPWR ?1 VAPWR ?1 VGND
 *connector(3,1) ?1 analog_2 ?1 analog_1 ?1 analog_0
-x1 analog_0 VAPWR VGND analog_2 analog_1 ui_in[4] ui_in[7] ui_in[6] ui_in[5] VPWR uo_out[7] switched_cap_cell
+x1 analog_2 VAPWR VGND analog_0 analog_1 uio_in[4] uio_in[7] uio_in[6] uio_in[5] VPWR uo_out[7] switched_cap_cell
 x5 VAPWR net2 net1 net3 VGND YadavVCR
-x3 net3 analog_0 VAPWR ui_in[3] VGND net2 analog_1 net1 analog_2 analog_switch_3pst
-x8 net4 VDD VSS sg13g2_hv_tielo
-x2 net5 VDD VSS sg13g2_hv_tielo
-x6 net6 VDD VSS sg13g2_hv_tielo
-x7 net6 uio_in[7] net_tie
-x9 net6 uio_in[6] net_tie
-x10 net6 uio_in[5] net_tie
-x11 net6 uio_in[4] net_tie
-x12 net6 uio_in[3] net_tie
-x13 net6 uio_in[2] net_tie
-x14 net6 uio_in[1] net_tie
-x15 net6 uio_in[0] net_tie
-x18 net4 uo_out[6] net_tie
-x19 net4 uo_out[5] net_tie
-x20 net4 uo_out[4] net_tie
-x21 net4 uo_out[3] net_tie
-x22 net4 uo_out[2] net_tie
-x23 net4 uo_out[1] net_tie
-x24 net4 uo_out[0] net_tie
-x25 net5 uio_out[7] net_tie
-x26 net5 uio_out[6] net_tie
-x27 net5 uio_out[5] net_tie
-x28 net5 uio_out[4] net_tie
-x29 net5 uio_out[3] net_tie
-x30 net5 uio_out[2] net_tie
-x31 net5 uio_out[1] net_tie
-x32 net5 uio_out[0] net_tie
-x33 net5 uio_oe[7] net_tie
-x34 net5 uio_oe[6] net_tie
-x35 net5 uio_oe[5] net_tie
-x36 net5 uio_oe[4] net_tie
-x37 net5 uio_oe[3] net_tie
-x38 net5 uio_oe[2] net_tie
-x39 net5 uio_oe[1] net_tie
-x40 net5 uio_oe[0] net_tie
-x17 net5 ui_in[2] net_tie
-x41 net5 ui_in[1] net_tie
-x42 net5 ui_in[0] net_tie
+x3 net3 analog_2 VAPWR ui_in[0] VGND net2 analog_1 net1 analog_0 analog_switch_3pst
+x4 net5 analog_2 VAPWR ui_in[1] VGND analog_1 net11 analog_0 net4 analog_switch_3pst
 x43 VSS VGND net_tie
 x44 VDD VPWR net_tie
+x8 net8 net9 net6 net7 net10 net9 net8 net6 net7 net10 net9 net8 net6 net7 net10 net5 VAPWR VGND net4 net11 vcr_bisection
+x9 VAPWR ui_in[3] net9 VGND lvl_shift_up
+x10 VAPWR ui_in[4] net8 VGND lvl_shift_up
+x11 VAPWR ui_in[5] net7 VGND lvl_shift_up
+x17 VAPWR ui_in[2] net10 VGND lvl_shift_up
+x41 VAPWR ui_in[6] net6 VGND lvl_shift_up
 .ends
 
 * expanding   symbol:  switched_cap_cell.sym # of pins=11
@@ -128,23 +98,58 @@ x1 net2 sw3_p1 sw3_p2 net1 VAPWR VGND transmission_gate
 .ends
 
 
-* expanding   symbol:  sg13g2_hv_tielo.sym # of pins=1
-** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13cmos5l/libs.ref/sg13cmos5l_stdcell_hv/sym/xschem/sg13g2_hv_tielo.sym
-** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/IHP-Open-PDK/ihp-sg13cmos5l/libs.ref/sg13cmos5l_stdcell_hv/sch/xschem/sg13g2_hv_tielo.sch
-.subckt sg13g2_hv_tielo L_LO VDD VSS
-
-*.PININFO L_LO:O
-XM1 L_LO VDD VSS VSS sg13_hv_nmos w=0.740u l=0.450u ng=1 m=1 mm_ok=1
-XM2 L_LO VDD VDD VDD sg13_hv_pmos w=2.690u l=0.450u ng=1 m=1 mm_ok=1
-.ends
-
-
 * expanding   symbol:  net_tie.sym # of pins=2
 ** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/schematic/xschem/net_tie.sym
 ** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/schematic/xschem/net_tie.sch
 .subckt net_tie net2 net1
 *.PININFO net1:B net2:B
 V1 net2 net1 0
+.ends
+
+
+* expanding   symbol:  vcr_bisection.sym # of pins=20
+** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/vcr_bisection.sym
+** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/vcr_bisection.sch
+.subckt vcr_bisection i3_b2 i3_b1 i3_b4 i3_b3 i1_b0 i1_b1 i1_b2 i1_b4 i1_b3 i2_b0 i2_b1 i2_b2 i2_b4 i2_b3 i3_b0 Vctrl Vdd Vss T2
++ T1
+*.PININFO T1:I T2:I Vctrl:I Vdd:I Vss:I i1_b0:I i1_b1:I i1_b2:I i1_b4:I i1_b3:I i2_b0:I i2_b1:I i2_b2:I i2_b4:I i2_b3:I i3_b0:I
+*+ i3_b1:I i3_b2:I i3_b4:I i3_b3:I
+x4 ib3 Vss vgate Vctrl Vdd Vcm voltage_sum
+XM1 T2 vgate T1 Vss sg13_hv_nmos w=15u l=10u ng=2 m=1 mm_ok=1
+x1 Vdd T1 Vss net1 ib2 net1 opamp_rtr
+x2 Vdd T2 Vss net2 ib1 net2 opamp_rtr
+x3 i3_b0 Vdd i3_b1 ib3 i3_b2 i3_b3 Vss i3_b4 isource_beta
+x5 i2_b0 Vdd i2_b1 ib2 i2_b2 i2_b3 Vss i2_b4 isource_beta
+x6 i1_b0 Vdd i1_b1 ib1 i1_b2 i1_b3 Vss i1_b4 isource_beta
+XR4 Vcm net1 vss rppd w=1e-6 l=50e-6 m=1 b=0 mm_ok=1
+XR1 net2 Vcm vss rppd w=1e-6 l=50e-6 m=1 b=0 mm_ok=1
+XR2 Vss Vss vss rppd w=1e-6 l=10e-6 m=2 b=0 mm_ok=1
+XM2 T1 T1 T1 Vss sg13_hv_nmos w=15u l=2u ng=2 m=1 mm_ok=1
+.ends
+
+
+* expanding   symbol:  lvl_shift_up.sym # of pins=4
+** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/lvl_shift_up.sym
+** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/lvl_shift_up.sch
+.subckt lvl_shift_up VDD in out VSS
+*.PININFO in:I VDD:B VSS:B out:O
+XM1 net1 in VSS VSS sg13_hv_nmos w={n_ng*n_w} l={n_l} ng={n_ng} m=1 mm_ok=1
+XM2 net1 in VDD VDD sg13_hv_pmos w={p_ng*p_w} l={p_l} ng={n_ng} m=1 mm_ok=1
+**** begin user architecture code
+
+
+.include ../../../macros/switched_capacitor/schematic/xschem/hv_inverter_6u5.sym
+
+.param n_ng = 2
+.param n_w = 10u
+.param n_l = 0.45u
+.param p_ng = 2
+.param p_w = 1u
+.param p_l = 0.45u
+
+
+**** end user architecture code
+x4 VDD net1 out VSS hv_inverter_6u5
 .ends
 
 
@@ -313,28 +318,194 @@ XM3 out in VDD VDD sg13_hv_pmos w={p_w} l={p_l} ng={ng} m=1 mm_ok=1
 .ends
 
 
-* expanding   symbol:  lvl_shift_up.sym # of pins=4
-** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/lvl_shift_up.sym
-** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/lvl_shift_up.sch
-.subckt lvl_shift_up VDD in out VSS
-*.PININFO in:I VDD:B VSS:B out:O
-XM1 net1 in VSS VSS sg13_hv_nmos w={n_ng*n_w} l={n_l} ng={n_ng} m=1 mm_ok=1
-XM2 net1 in VDD VDD sg13_hv_pmos w={p_ng*p_w} l={p_l} ng={n_ng} m=1 mm_ok=1
+* expanding   symbol:  voltage_sum.sym # of pins=6
+** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/voltage_sum.sym
+** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/voltage_sum.sch
+.subckt voltage_sum ibias vss vout vin1 vdd vin2
+*.PININFO vin1:B vout:B vin2:B vss:B vdd:B ibias:B
+x1 vdd net2 vss net1 ibias vout opamp_rtr
+XR4 net2 vin1 vss rppd w=1e-6 l=100e-6 m=1 b=0 mm_ok=1
+XR1 net2 vin2 vss rppd w=1e-6 l=100e-6 m=1 b=0 mm_ok=1
+XR2 vout net1 vss rppd w=1e-6 l=100e-6 m=1 b=0 mm_ok=1
+XR3 vss net1 vss rppd w=1e-6 l=100e-6 m=1 b=0 mm_ok=1
+.ends
+
+
+* expanding   symbol:  ../../macros/opamp_rtr/schematic/xschem/opamp_rtr.sym # of pins=6
+** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/../../macros/opamp_rtr/schematic/xschem/opamp_rtr.sym
+** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/../../macros/opamp_rtr/schematic/xschem/opamp_rtr.sch
+.subckt opamp_rtr vdd inp vss inn ibias out
+*.PININFO inp:I out:O vdd:B inn:I ibias:I vss:B
+XXM6 out1_n inp ncmdiff_n vss sg13_hv_nmos w={w_diff_n} l={l_diff} ng={n_diff_n} m=1 mm_ok=1
+XXM1 net1 inn ncmdiff_p ncmdiff_p sg13_hv_pmos w={w_diff_p} l={l_diff} ng={n_diff_p} m=1 mm_ok=1
+XXM2 ncmdiff_p inp out1_p ncmdiff_p sg13_hv_pmos w={w_diff_p} l={l_diff} ng={n_diff_p} m=1 mm_ok=1
+XXM3 ncmdiff_p vbias_p vdd vdd sg13_hv_pmos w={w_tail_p} l={l_bias} ng={n_tail_p} m=1 mm_ok=1
+XXM4 vss net1 net1 vss sg13_hv_nmos w={w_load_n} l={l_load} ng={n_load_n} m=1 mm_ok=1
+XXM5 out1_p net1 vss vss sg13_hv_nmos w={w_load_n} l={l_load} ng={n_load_n} m=1 mm_ok=1
+XXM7 ncmdiff_n inn net2 vss sg13_hv_nmos w={w_diff_n} l={l_diff} ng={n_diff_n} m=1 mm_ok=1
+XXM8 ncmdiff_n ibias vss vss sg13_hv_nmos w={w_tail_n} l={l_bias} ng={n_tail_n} m=1 mm_ok=1
+XXM9 vdd net2 out1_n vdd sg13_hv_pmos w={w_load_p} l={l_load} ng={n_load_p} m=1 mm_ok=1
+XXM10 net2 net2 vdd vdd sg13_hv_pmos w={w_load_p} l={l_load} ng={n_load_p} m=1 mm_ok=1
+XXM25 nswa vbias_p ncmdiff_p ncmdiff_p sg13_hv_pmos w={w_sw_p} l={l_sw} ng={n_sw_p} m=1 mm_ok=1
+XXM26 nswa nswa vss vss sg13_hv_nmos w={w_gmn} l={l_bias} ng={n_gmn} m=1 mm_ok=1
+XXM27 ncmdiff_n nswa vss vss sg13_hv_nmos w={w_gmn} l={l_bias} ng={n_gmn} m=1 mm_ok=1
+XXM28 ncmdiff_n vbias_p nswb vss sg13_hv_nmos w={w_sw_n} l={l_sw} ng={n_sw_n} m=1 mm_ok=1
+XXM29 nswb nswb vdd vdd sg13_hv_pmos w={w_gmp} l={l_bias} ng={n_gmp} m=1 mm_ok=1
+XXM30 ncmdiff_p nswb vdd vdd sg13_hv_pmos w={w_gmp} l={l_bias} ng={n_gmp} m=1 mm_ok=1
+XXM13 out1_n nabn out1_p vss sg13_hv_nmos w={w_ab_n} l={l_ab} ng={n_ab_n} m=1 mm_ok=1
+XXM14 out1_p nabp out1_n vdd sg13_hv_pmos w={w_ab_p} l={l_ab} ng={n_ab_p} m=1 mm_ok=1
+XXM15 out1_n vbias_p vdd vdd sg13_hv_pmos w={w_ab_src} l={l_bias} ng={n_ab_src} m=1 mm_ok=1
+XXM16 out1_p nab_ref vss vss sg13_hv_nmos w={w_ab_snk} l={l_bias} ng={n_ab_snk} m=1 mm_ok=1
+XXM23 nab_ref vbias_p vdd vdd sg13_hv_pmos w={w_ab_src} l={l_bias} ng={n_ab_src} m=1 mm_ok=1
+XXM24 nab_ref nab_ref vss vss sg13_hv_nmos w={w_ab_snk} l={l_bias} ng={n_ab_snk} m=1 mm_ok=1
+XXM17 nabn vbias_p vdd vdd sg13_hv_pmos w={w_ab_src} l={l_bias} ng={n_ab_src} m=1 mm_ok=1
+XXM18 nabn nabn net3 vss sg13_hv_nmos w={w_ab_n} l={l_ab} ng={n_ab_n} m=1 mm_ok=1
+XXM19 net3 net3 vss vss sg13_hv_nmos w={w_ab_n} l={l_ab} ng={n_ab_n} m=1 mm_ok=1
+XXM20 nabp nab_ref vss vss sg13_hv_nmos w={w_ab_snk} l={l_bias} ng={n_ab_snk} m=1 mm_ok=1
+XXM21 nabp nabp net4 vdd sg13_hv_pmos w={w_ab_p} l={l_ab} ng={n_ab_p} m=1 mm_ok=1
+XXM22 net4 net4 vdd vdd sg13_hv_pmos w={w_ab_p} l={l_ab} ng={n_ab_p} m=1 mm_ok=1
+XXM11 out out1_n vdd vdd sg13_hv_pmos w={w_out_p} l={l_out} ng={n_out_p} m=1 mm_ok=1
+XXM12 out out1_p vss vss sg13_hv_nmos w={w_out_n} l={l_out} ng={n_out_n} m=1 mm_ok=1
+XXB1 ibias ibias vss vss sg13_hv_nmos w={w_bias_n} l={l_bias} ng={n_bias_n} m=1 mm_ok=1
+XXB2 vbias_p ibias vss vss sg13_hv_nmos w={w_bias_n} l={l_bias} ng={n_bias_n} m=1 mm_ok=1
+XXB3 vbias_p vbias_p vdd vdd sg13_hv_pmos w={w_bias_p} l={l_bias} ng={n_bias_p} m=1 mm_ok=1
 **** begin user architecture code
 
 
-.include ../../../macros/switched_capacitor/schematic/xschem/hv_inverter_6u5.sym
+*bias network
+.param l_bias=4u
+.param w_bias_p=15u
+.param n_bias_p=2
+.param w_bias_n=5u
+.param n_bias_n=2
+.param w_ref_n=5u
+.param n_ref_n=4
+.param w_ref_p=15u
+.param n_ref_p=4
+*first stage
+.param l_diff=2u
+.param l_load=4u
 
-.param n_ng = 2
-.param n_w = 10u
-.param n_l = 0.45u
-.param p_ng = 2
-.param p_w = 1u
-.param p_l = 0.45u
+.param w_diff_n=5u
+.param n_diff_n=4
+
+.param w_diff_p=15u
+.param n_diff_p=4
+
+.param w_load_n=5u
+.param n_load_n=4
+
+.param w_load_p=15u
+.param n_load_p=4
+
+.param w_tail_n=5u
+.param n_tail_n=2
+
+.param w_tail_p=15u
+.param n_tail_p=2
+
+.param l_sw=1u
+.param w_sw_p=15u
+.param n_sw_p=2
+
+.param w_sw_n=5u
+.param n_sw_n=2
+
+.param w_gmn=5u
+.param n_gmn=4
+
+.param w_gmp=15u
+.param n_gmp=4
+
+*output control circuit
+.param w_ab_src=15u
+.param n_ab_src=2
+.param w_ab_snk=5u
+.param n_ab_snk=2
+
+.param w_ab_n=5u
+.param n_ab_n=2
+.param w_ab_p=15u
+.param n_ab_p=2
+
+.param l_ab=1u
+
+.param w_out_p=60u
+.param n_out_p=8
+.param w_out_n=20u
+.param n_out_n=8
+.param l_out=1u
+
+.param r_null=50k
+.param c_null=500f
+
 
 
 **** end user architecture code
-x4 VDD net1 out VSS hv_inverter_6u5
+XR4 net5 out1_n vss rhigh w=1e-6 l=36e-6 m=1 b=0 mm_ok=1
+XR2 net6 out1_p vss rhigh w=1e-6 l=36e-6 m=1 b=0 mm_ok=1
+XDUMMY1 ncmdiff_n ncmdiff_n ncmdiff_n vss sg13_hv_nmos w=5u l=0.45u ng=4 m=1 mm_ok=1
+XDUMMY2 ncmdiff_n ncmdiff_n ncmdiff_n vss sg13_hv_nmos w=5u l=0.45u ng=2 m=1 mm_ok=1
+XDUMMY10 out1_n out1_n out1_n vdd sg13_hv_pmos w=15u l=1u ng=2 m=1 mm_ok=1
+XDUMMY11 out1_p out1_p out1_p vss sg13_hv_nmos w=5u l=1u ng=2 m=1 mm_ok=1
+XRDUMMY vss vss vss rhigh w=1e-6 l=9e-6 m=2 b=0 mm_ok=1
+XDUMMY3 ncmdiff_p ncmdiff_p ncmdiff_p ncmdiff_p sg13_hv_pmos w=30u l=0.4u ng=6 m=1 mm_ok=1
+XDUMMY4 vss vss vss vss sg13_hv_nmos w=22.5u l=0.45u ng=12 m=1 mm_ok=1
+XDUMMY5 vdd vdd vdd vdd sg13_hv_pmos w=60u l=0.4u ng=11 m=1 mm_ok=1
+.ends
+
+
+* expanding   symbol:  ../../macros/isource_beta/schematic/xschem/isource_beta.sym # of pins=8
+** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/../../macros/isource_beta/schematic/xschem/isource_beta.sym
+** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/vcr_bisection/schematic/xschem/../../macros/isource_beta/schematic/xschem/isource_beta.sch
+.subckt isource_beta b0 vdd b1 out b2 b3 vss b4
+*.PININFO out:O vdd:B vss:B b0:B b1:B b2:B b3:B b4:B
+XM1 net1 v0 vdd vdd sg13_hv_pmos w=12u l=4u ng=4 m=1 mm_ok=1
+XM2 v0 v0 vdd vdd sg13_hv_pmos w=12u l=4u ng=4 m=1 mm_ok=1
+XM3 net1 net1 vss vss sg13_hv_nmos w=40u l=4u ng=8 m=1 mm_ok=1
+XM4 v0 net1 iref vss sg13_hv_nmos w=40u l=4u ng=8 m=3 mm_ok=1
+XM5 out v0 vdd vdd sg13_hv_pmos w=12u l=4u ng=4 m=1 mm_ok=1
+XMS1 net2 vdd vdd vdd sg13_hv_pmos w=1u l=10u ng=1 m=1 mm_ok=1
+XMS2 net2 net1 vss vss sg13_hv_nmos w=10u l=0.45u ng=2 m=1 mm_ok=1
+XMS3 v0 net2 vss vss sg13_hv_nmos w=10u l=0.45u ng=2 m=1 mm_ok=1
+XR10 iref net4 vss rppd w=1e-6 l=160e-6 m=1 b=0 mm_ok=1
+XR2 net6 vss vss rppd w=1e-6 l=10e-6 m=1 b=0 mm_ok=1
+XM6 iref b4 net4 vss sg13_hv_nmos w=16u l=0.45u ng=2 m=1 mm_ok=1
+XR3 net5 net6 vss rppd w=1e-6 l=20e-6 m=1 b=0 mm_ok=1
+XR4 net3 net5 vss rppd w=1e-6 l=40e-6 m=1 b=0 mm_ok=1
+XR5 net4 net3 vss rppd w=1e-6 l=80e-6 m=1 b=0 mm_ok=1
+XM7 net4 b3 net3 vss sg13_hv_nmos w=16u l=0.45u ng=2 m=1 mm_ok=1
+XM8 net3 b2 net5 vss sg13_hv_nmos w=16u l=0.45u ng=2 m=1 mm_ok=1
+XM9 net5 b1 net6 vss sg13_hv_nmos w=16u l=0.45u ng=2 m=1 mm_ok=1
+XM10 net6 b0 vss vss sg13_hv_nmos w=16u l=0.45u ng=2 m=1 mm_ok=1
+XM11 v0 v0 v0 vss sg13_hv_nmos w=100u l=0.5u ng=20 m=1 mm_ok=1
+XM12 vss vss vss vss sg13_hv_nmos w=26u l=0.45u ng=4 m=1 mm_ok=1
+XR1 vss vss vss rppd w=1e-6 l=10e-6 m=2 b=0 mm_ok=1
+XM13 vss vss vss vss sg13_hv_nmos w=20u l=0.5u ng=4 m=1 mm_ok=1
+XMS4 vdd vdd vdd vdd sg13_hv_pmos w=18u l=0.4u ng=6 m=1 mm_ok=1
+.ends
+
+
+* expanding   symbol:  hv_inverter_6u5.sym # of pins=4
+** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/hv_inverter_6u5.sym
+** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/hv_inverter_6u5.sch
+.subckt hv_inverter_6u5 VDD in out VSS
+*.PININFO in:I VDD:B VSS:B out:O
+XM2 out in VSS VSS sg13_hv_nmos w={n_w} l={n_l} ng={ng} m=1 mm_ok=1
+XM3 out in VDD VDD sg13_hv_pmos w={p_w} l={p_l} ng={ng} m=1 mm_ok=1
+**** begin user architecture code
+
+
+.param ng  = 1
+.param n_ng = ng
+.param n_w = {2u*n_ng}
+.param n_l = 0.45u
+.param p_ng = ng
+.param p_w = {6.5u*p_ng}
+.param p_l = 0.4u
+
+
+**** end user architecture code
 .ends
 
 
@@ -480,29 +651,6 @@ XR3 out VDD VSS rhigh w=0.5e-6 l=34e-6 m=1 b=0 mm_ok=1
 XM2 net1 net1 VSS VSS sg13_hv_nmos w=n_w l=n_l ng=1 m=1 mm_ok=1
 XM3 nout Ibias VDD VDD sg13_hv_pmos w=p_w l=p_l ng=1 m=1 mm_ok=1
 XM6 Ibias Ibias VDD VDD sg13_hv_pmos w=1.9*p_w l=p_l ng=1 m=1 mm_ok=1
-.ends
-
-
-* expanding   symbol:  hv_inverter_6u5.sym # of pins=4
-** sym_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/hv_inverter_6u5.sym
-** sch_path: /home/noah/Documents/freizeit/heichips/heichips26-voltage-controlled-resistor/macros/heichips26_vcr/macros/switched_capacitor/schematic/xschem/hv_inverter_6u5.sch
-.subckt hv_inverter_6u5 VDD in out VSS
-*.PININFO in:I VDD:B VSS:B out:O
-XM2 out in VSS VSS sg13_hv_nmos w={n_w} l={n_l} ng={ng} m=1 mm_ok=1
-XM3 out in VDD VDD sg13_hv_pmos w={p_w} l={p_l} ng={ng} m=1 mm_ok=1
-**** begin user architecture code
-
-
-.param ng  = 1
-.param n_ng = ng
-.param n_w = {2u*n_ng}
-.param n_l = 0.45u
-.param p_ng = ng
-.param p_w = {6.5u*p_ng}
-.param p_l = 0.4u
-
-
-**** end user architecture code
 .ends
 
 
