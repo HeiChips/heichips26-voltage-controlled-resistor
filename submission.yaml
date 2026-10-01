@@ -9,7 +9,7 @@ team-members:
 - Mattes
 - Sebastian
 - Noah
-slot-size: tiny # small, large, tiny
+slot-size: small # small, large, tiny
 analog-pins: 3 # 0-3, only for small or tiny projects
 uses-vapwr: true # set to "true" if separate analog power domain is needed
 short-description: A fully analog component with ohmic behaviour whose resistance value can be changed in accordance with an external analog control voltage.

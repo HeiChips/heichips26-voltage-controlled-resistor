@@ -16,18 +16,52 @@
 *connector(8,1) ?1 uo_out[7] ?1 uo_out[6] ?1 uo_out[5] ?1 uo_out[4] ?1 uo_out[3] ?1 uo_out[2] ?1 uo_out[1] ?1 uo_out[0]
 *connector(3,1) ?1 VPWR ?1 VAPWR ?1 VGND
 *connector(3,1) ?1 analog_2 ?1 analog_1 ?1 analog_0
-x1 analog_2 VAPWR VGND analog_0 analog_1 uio_in[4] uio_in[7] uio_in[6] uio_in[5] VPWR uo_out[7] switched_cap_cell
+XM1 VGND VPWR VGND VGND sg13_lv_pmos w=70.0u l=10.0u ng=7 m=1 mm_ok=1
+x1 analog_2 VAPWR VGND analog_0 analog_1 uio_in[4] uio_in[7] uio_in[6] uio_in[5] VPWR uio_out[4] switched_cap_cell
 x5 VAPWR net2 net1 net3 VGND YadavVCR
 x3 net3 analog_2 VAPWR ui_in[0] VGND net2 analog_1 net1 analog_0 analog_switch_3pst
-x4 net5 analog_2 VAPWR ui_in[1] VGND analog_1 net11 analog_0 net4 analog_switch_3pst
+x4 net5 analog_2 VAPWR ui_in[1] VGND analog_1 net12 analog_0 net4 analog_switch_3pst
 x43 VSS VGND net_tie
 x44 VDD VPWR net_tie
-x8 net8 net9 net6 net7 net10 net9 net8 net6 net7 net10 net9 net8 net6 net7 net10 net5 VAPWR VGND net4 net11 vcr_bisection
-x9 VAPWR ui_in[3] net9 VGND lvl_shift_up
-x10 VAPWR ui_in[4] net8 VGND lvl_shift_up
-x11 VAPWR ui_in[5] net7 VGND lvl_shift_up
-x17 VAPWR ui_in[2] net10 VGND lvl_shift_up
-x41 VAPWR ui_in[6] net6 VGND lvl_shift_up
+x8 net9 net10 net7 net8 net11 net10 net9 net7 net8 net11 net10 net9 net7 net8 net11 net5 VAPWR VGND net4 net12 vcr_bisection
+x9 VAPWR ui_in[3] net10 VGND lvl_shift_up
+x10 VAPWR ui_in[4] net9 VGND lvl_shift_up
+x11 VAPWR ui_in[5] net8 VGND lvl_shift_up
+x17 VAPWR ui_in[2] net11 VGND lvl_shift_up
+x41 VAPWR ui_in[6] net7 VGND lvl_shift_up
+XM3 VGND VAPWR VGND VGND sg13_hv_pmos w=180u l=10u ng=18 m=1 mm_ok=1
+XM2 VGND VAPWR VGND VGND sg13_hv_pmos w=240u l=10u ng=24 m=1 mm_ok=1
+XR1 uio_in[3] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR2 uio_in[2] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR3 uio_in[1] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR4 uio_in[0] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR5 ui_in[7] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR6 uio_oe[7] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR7 uio_oe[6] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR8 uio_oe[5] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR9 uio_oe[4] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR10 uio_oe[3] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR11 uio_oe[2] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR12 uio_oe[1] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR13 uio_oe[0] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR14 uio_out[7] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR15 uio_out[6] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR16 uio_out[5] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR18 uio_out[3] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR19 uio_out[2] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR20 uio_out[1] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR21 uio_out[0] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR22 uo_out[7] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR23 uo_out[6] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR24 uo_out[5] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR25 uo_out[4] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR26 uo_out[3] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR27 uo_out[2] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR28 uo_out[1] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XR29 uo_out[0] net6 VGND rsil w=0.5e-6 l=0.5e-6 m=1 mm_ok=1
+XM4 VGND VAPWR VGND VGND sg13_hv_pmos w=170u l=10u ng=17 m=1 mm_ok=1
+XM5 VGND VAPWR VGND VGND sg13_hv_pmos w=40u l=10u ng=4 m=1 mm_ok=1
+XM6 VGND VAPWR VGND VGND sg13_hv_pmos w=180u l=10u ng=18 m=1 mm_ok=1
 .ends
 
 * expanding   symbol:  switched_cap_cell.sym # of pins=11

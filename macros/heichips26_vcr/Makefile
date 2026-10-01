@@ -139,8 +139,13 @@ lef: ## Export LEF from the TOP cell layout using Magic
 	printf '%s\n' \
 		'gds read $(LAY_DIR)/$(TOP).gds' \
 		'load $(TOP)' \
-		'port VAPWR class inout' \
-		'port VAPWR use POWER' \
+		'box 0 0 0 0' \
+		'port VGND use ground' \
+		'port VGND class bidirectional' \
+		'port VPWR use power' \
+		'port VPWR class bidirectional' \
+		'port VAPWR use power' \
+		'port VAPWR class bidirectional' \
 		'lef write $(LEF_DIR)/$(TOP).lef -hide -pinonly 2um' | \
 		magic -dnull -noconsole \
 		-rcfile $(PDK_ROOT)/$(PDK)/libs.tech/magic/ihp-sg13cmos5l.magicrc
