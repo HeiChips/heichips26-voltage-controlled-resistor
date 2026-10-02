@@ -1,4 +1,4 @@
-module heichips26_analog_project (
+module heichips26_vcr (
 `ifdef USE_POWER_PINS
     inout VAPWR,
     inout VGND,
